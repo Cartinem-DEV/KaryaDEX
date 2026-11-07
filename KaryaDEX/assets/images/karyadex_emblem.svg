@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <!-- Background Radial Glow -->
+    <radialGradient id="kdxAuraGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#6366F1" stop-opacity="0.18" />
+      <stop offset="85%" stop-color="#00E5FF" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#05070B" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Blade 1: Left Vertical Curved Stem -->
+    <linearGradient id="kdxStemGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD" />
+      <stop offset="18%" stop-color="#A78BFA" />
+      <stop offset="45%" stop-color="#7C3AED" />
+      <stop offset="75%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#3730A3" />
+    </linearGradient>
+
+    <linearGradient id="kdxStemSpecular" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="35%" stop-color="#DDD6FE" stop-opacity="0.55" />
+      <stop offset="70%" stop-color="#8B5CF6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Blade 2: Sweeping Upper Wing -->
+    <linearGradient id="kdxUpperGrad" x1="5%" y1="85%" x2="95%" y2="15%">
+      <stop offset="0%" stop-color="#6D28D9" />
+      <stop offset="25%" stop-color="#7C3AED" />
+      <stop offset="52%" stop-color="#8B5CF6" />
+      <stop offset="75%" stop-color="#3B82F6" />
+      <stop offset="92%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+
+    <linearGradient id="kdxUpperSpecular" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DDD6FE" stop-opacity="0" />
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.80" />
+      <stop offset="80%" stop-color="#A5F3FC" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="1" />
+    </linearGradient>
+
+    <!-- Blade 3: Curved Lower Fin -->
+    <linearGradient id="kdxLowerGrad" x1="10%" y1="10%" x2="90%" y2="90%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="30%" stop-color="#6366F1" />
+      <stop offset="60%" stop-color="#4F46E5" />
+      <stop offset="85%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+
+    <linearGradient id="kdxLowerSpecular" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DDD6FE" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#67E8F9" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Soft Depth Shadow -->
+    <linearGradient id="kdxShadowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.90" />
+    </linearGradient>
+  </defs>
+
+  <!-- Aura Glow Center -->
+  <circle cx="512" cy="512" r="440" fill="url(#kdxAuraGlow)" />
+
+  <!-- Centered & Scaled 3-Blade Emblem Group -->
+  <!-- Transformed from 440x440 base to 1024x1024 (scale ~2.2x, centered) -->
+  <g transform="translate(62, 52) scale(2.05)">
+    <!-- ─── BLADE 1: TALL CURVED VERTICAL STEM ─── -->
+    <path
+      d="M 134 72 C 114 118, 103 188, 103 226 C 103 273, 115 328, 140 361 C 146 368, 153 365, 155 357 C 166 312, 175 256, 175 209 C 175 157, 164 102, 147 68 C 143 60, 137 63, 134 72 Z"
+      fill="url(#kdxShadowGrad)"
+      transform="translate(4, 6)"
+      opacity="0.45"
+    />
+    <path
+      d="M 134 72 C 114 118, 103 188, 103 226 C 103 273, 115 328, 140 361 C 146 368, 153 365, 155 357 C 166 312, 175 256, 175 209 C 175 157, 164 102, 147 68 C 143 60, 137 63, 134 72 Z"
+      fill="url(#kdxStemGrad)"
+    />
+    <path
+      d="M 134 72 C 116 118, 107 186, 107 226 C 107 266, 116 314, 136 348 C 131 316, 122 268, 122 226 C 122 186, 130 128, 142 80 Z"
+      fill="url(#kdxStemSpecular)"
+      opacity="0.75"
+    />
+
+    <!-- ─── BLADE 2: SWEEPING UPPER WING ─── -->
+    <path
+      d="M 184 195 C 197 154, 233 112, 285 86 C 316 70, 345 62, 359 62 C 361 62, 362 65, 360 67 C 334 94, 290 150, 246 192 C 221 216, 198 226, 184 219 C 180 217, 180 208, 184 195 Z"
+      fill="url(#kdxShadowGrad)"
+      transform="translate(4, 6)"
+      opacity="0.4"
+    />
+    <path
+      d="M 184 195 C 197 154, 233 112, 285 86 C 316 70, 345 62, 359 62 C 361 62, 362 65, 360 67 C 334 94, 290 150, 246 192 C 221 216, 198 226, 184 219 C 180 217, 180 208, 184 195 Z"
+      fill="url(#kdxUpperGrad)"
+    />
+    <path
+      d="M 194 186 C 210 148, 246 110, 292 86 C 322 72, 348 65, 359 62 C 347 68, 318 80, 285 100 C 242 126, 208 162, 194 186 Z"
+      fill="url(#kdxUpperSpecular)"
+      opacity="0.88"
+    />
+
+    <!-- ─── BLADE 3: CURVED LOWER FIN ─── -->
+    <path
+      d="M 188 234 C 212 240, 248 263, 285 298 C 316 329, 338 353, 345 361 C 347 363, 345 365, 341 364 C 310 356, 260 331, 220 291 C 195 266, 180 247, 182 238 C 183 234, 186 233, 188 234 Z"
+      fill="url(#kdxShadowGrad)"
+      transform="translate(3, 5)"
+      opacity="0.4"
+    />
+    <path
+      d="M 188 234 C 212 240, 248 263, 285 298 C 316 329, 338 353, 345 361 C 347 363, 345 365, 341 364 C 310 356, 260 331, 220 291 C 195 266, 180 247, 182 238 C 183 234, 186 233, 188 234 Z"
+      fill="url(#kdxLowerGrad)"
+    />
+    <path
+      d="M 194 240 C 220 250, 256 276, 294 310 C 322 336, 338 354, 345 361 C 336 351, 312 328, 282 298 C 248 264, 212 244, 194 240 Z"
+      fill="url(#kdxLowerSpecular)"
+      opacity="0.82"
+    />
+  </g>
+</svg>

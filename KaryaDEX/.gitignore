@@ -1,0 +1,54 @@
+# ==============================================================================
+# KaryaDEX App .gitignore (Hardened)
+# ==============================================================================
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo & Web
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+*.env.production
+*.env.development
+*.pem
+*.key
+*.cert
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+*.keystore
+*api*.txt
+*key*.txt
+
+# Native Generated Builds
+/android
+/ios
+.kotlin/
+*.orig.*
+
+# Logs & Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# macOS & OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# TypeScript
+*.tsbuildinfo

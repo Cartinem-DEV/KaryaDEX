@@ -1,0 +1,124 @@
+# ==============================================================================
+# KaryaDEX — Root .gitignore (Open-Source Hardened)
+# ==============================================================================
+
+# 1. Dependencies & Package Caches
+node_modules/
+*/node_modules/
+.pnp
+.pnp.js
+package-lock.json.bak
+
+# 2. Environment Variables & Secrets (CRITICAL SECURITY)
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+*.pem
+*.key
+*.cert
+*.jks
+*.keystore
+*api*.txt
+*key*.txt
+*.secret
+
+# 3. Proprietary APKs, Decompiled Scratches & Reverse Engineering Binaries
+*.apk
+*.aab
+*.xapk
+extracted_xapk/
+extracted_astra_xapk/
+webapp_analysis/
+_regain_analysis/
+com.matiks.app*
+ai.regainapp*
+co.astra_ai*
+errors/
+Capture.PNG
+Capture*.png
+*.riv.bak
+
+# 4. Agent Scratches, Local Notes & Temporary Workspaces
+.agents/
+*/.agents/
+skills-lock.json
+*/skills-lock.json
+test_results.json
+*/test_results.json
+.temp/
+*/.temp/
+KaryaDEX/workers/
+docs/qa/
+*/docs/qa/
+docs/reverse-engineering/
+*/docs/reverse-engineering/
+docs/superpowers/
+*/docs/superpowers/
+phase*.md
+*/phase*.md
+*_report.md
+*/_report.md
+add_exams.py
+add_more_exams.py
+count_exams.py
+REA
+.claude/
+.remember/
+.superpowers/
+webcmd-browser/
+Onboarding/
+bunkmatkar/
+*.png
+!KaryaDEX/assets/**/*.png
+!assets/**/*.png
+!docs/**/*.png
+
+# 5. Playwright & Browser Automation Artifacts
+.playwright-mcp/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# 6. Logs & Debug Reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+npm_run_web.log
+
+# 7. Expo & Metro Build Outputs
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.metro-health-check*
+
+# 8. Android Native Build Outputs
+android/
+KaryaDEX/android/
+.gradle/
+build/
+local.properties
+
+# 9. iOS Native Build Outputs
+ios/
+KaryaDEX/ios/
+Pods/
+*.xcworkspace
+*.xcuserdata
+
+# 10. TypeScript & Build Caches
+*.tsbuildinfo
+.turbo/
+.cache/
+
+# 11. OS Metadata
+.DS_Store
+Thumbs.db
+desktop.ini

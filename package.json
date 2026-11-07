@@ -1,0 +1,27 @@
+{
+  "name": "college-app-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix KaryaDEX run start",
+    "start:lan": "npm --prefix KaryaDEX run start:lan",
+    "web": "npm --prefix KaryaDEX run web",
+    "tunnel": "npm --prefix KaryaDEX run tunnel",
+    "android": "npm --prefix KaryaDEX run android",
+    "ios": "npm --prefix KaryaDEX run ios",
+    "clear": "npm --prefix KaryaDEX run clear",
+    "typecheck": "npm --prefix KaryaDEX run typecheck",
+    "test": "npm --prefix KaryaDEX test"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^8.0.1",
+    "@babel/preset-react": "^8.0.1",
+    "@babel/preset-typescript": "^8.0.7",
+    "babel-jest": "^30.5.2"
+  },
+  "dependencies": {
+    "expo": "^58.0.22",
+    "react": "19.3.0",
+    "react-native": "0.88.1"
+  }
+}

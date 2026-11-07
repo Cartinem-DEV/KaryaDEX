@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 432" width="432" height="432">
+  <!-- Android 13+ Material You Adaptive Monochrome Silhouette -->
+  <!-- Centered within the safe 288x288 circular mask (radius 144 from center 216,216) -->
+  <g transform="translate(48, 48) scale(0.76)">
+    <!-- Blade 1: Vertical Stem -->
+    <path
+      d="M 134 72 C 114 118, 103 188, 103 226 C 103 273, 115 328, 140 361 C 146 368, 153 365, 155 357 C 166 312, 175 256, 175 209 C 175 157, 164 102, 147 68 C 143 60, 137 63, 134 72 Z"
+      fill="#FFFFFF"
+    />
+    <!-- Blade 2: Upper Wing -->
+    <path
+      d="M 184 195 C 197 154, 233 112, 285 86 C 316 70, 345 62, 359 62 C 361 62, 362 65, 360 67 C 334 94, 290 150, 246 192 C 221 216, 198 226, 184 219 C 180 217, 180 208, 184 195 Z"
+      fill="#FFFFFF"
+    />
+    <!-- Blade 3: Lower Fin -->
+    <path
+      d="M 188 234 C 212 240, 248 263, 285 298 C 316 329, 338 353, 345 361 C 347 363, 345 365, 341 364 C 310 356, 260 331, 220 291 C 195 266, 180 247, 182 238 C 183 234, 186 233, 188 234 Z"
+      fill="#FFFFFF"
+    />
+  </g>
+</svg>

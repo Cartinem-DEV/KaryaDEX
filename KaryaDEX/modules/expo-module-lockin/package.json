@@ -1,0 +1,10 @@
+{
+  "name": "expo-module-lockin",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc --noEmit"
+  },
+  "dependencies": {}
+}

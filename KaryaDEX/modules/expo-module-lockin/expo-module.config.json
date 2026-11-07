@@ -1,0 +1,13 @@
+{
+  "name": "expo-module-lockin",
+  "slug": "lockin",
+  "manifest": {
+    "type": "expo-module",
+    "version": "0.1.0"
+  },
+  "description": "LOCKIN Phase 2 - Expo Module for lockin functionality",
+  "platforms": ["android", "ios"],
+  "dependencies": {
+    "expo": ">=57.0.0"
+  }
+}

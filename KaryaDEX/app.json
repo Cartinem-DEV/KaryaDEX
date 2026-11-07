@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "KaryaDEX",
+    "slug": "bunkmatkar",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "bunkmatkar",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "allowBackup": false,
+      "usesCleartextTraffic": false,
+      "permissions": [
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
+      ],
+      "package": "com.bunkmatkar.bunkmatkar"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-sqlite",
+      "@react-native-community/datetimepicker",
+      "expo-secure-store",
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow KaryaDEX to use Face ID to protect your attendance and academic data."
+        }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "bunkmatkar",
+          "project": "bunkmatkar",
+          "url": "https://sentry.io"
+        }
+      ],
+      "@sentry/react-native",
+      "expo-font",
+      "expo-status-bar",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "googleWebClientId": "240868567707-39foq7bmpptai0707ml5sadrv4pb44d6.apps.googleusercontent.com",
+      "router": {},
+      "eas": {
+        "projectId": "60ed1213-c7dd-4b74-a9a6-1ece2b09cb6c"
+      }
+    }
+  }
+}

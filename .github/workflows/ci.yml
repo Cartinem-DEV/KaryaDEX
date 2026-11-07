@@ -1,0 +1,58 @@
+name: KaryaDEX CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  karyadex-client:
+    name: Client Typecheck & Test Suite
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: KaryaDEX/package-lock.json
+
+      - name: Install Client Dependencies
+        working-directory: KaryaDEX
+        run: npm ci
+
+      - name: Run TypeScript Typecheck
+        working-directory: KaryaDEX
+        run: npm run typecheck
+
+      - name: Run Unit & Integration Tests
+        working-directory: KaryaDEX
+        run: npm test -- --coverage=false --passWithNoTests
+
+  ai-gateway:
+    name: Cloudflare AI Gateway Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20.x
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: workers/ai-gateway/package-lock.json
+
+      - name: Install Gateway Dependencies
+        working-directory: workers/ai-gateway
+        run: npm ci
+
+      - name: Run Vitest Unit Tests
+        working-directory: workers/ai-gateway
+        run: npm test

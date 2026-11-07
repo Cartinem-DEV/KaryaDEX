@@ -1,0 +1,15 @@
+# ==============================================================================
+# Cloudflare Worker AI Gateway .gitignore
+# ==============================================================================
+
+node_modules/
+.dev.vars
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+dist/
+.wrangler/
+coverage/
+*.log

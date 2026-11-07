@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "2efce9b2-ea4b-4c3f-be6b-f116d27afb84"
+      }
+    },
+    "android": {
+      "package": "com.bunkmatkar.collegeappworkspace"
+    }
+  }
+}

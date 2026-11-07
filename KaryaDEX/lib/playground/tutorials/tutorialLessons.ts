@@ -1,0 +1,191 @@
+/**
+ * KaryaDEX — Interactive Tutorial Lesson Definitions
+ *
+ * Provides action-based tutorial flows for Sprint Duel, Queens, Tango, and MindSnap.
+ * Each lesson guides the player through hands-on interactions rather than passive slides.
+ */
+
+import type { PlaygroundGameType } from '@/types/playground';
+import type { InteractiveLesson } from './guideTypes';
+
+export const TUTORIAL_LESSONS: Record<PlaygroundGameType, InteractiveLesson> = {
+  sprint_duel: {
+    gameType: 'sprint_duel',
+    title: 'Sprint Duel Training',
+    subtitle: 'Learn arithmetic speed, key controls, and combo scaling',
+    completionTitle: 'Sprint Duel Ready!',
+    completionBody: 'You understand numpad controls, fast validation, and combo building. Ready to battle Sero AI!',
+    steps: [
+      {
+        id: 'sd-step-1',
+        title: 'Step 1: Quick Arithmetic',
+        instruction: 'Solve 8 + 6. Tap 1 then 4 on the numpad.',
+        hint: '8 + 6 = 14. Tap "1" followed by "4".',
+        actionRequired: 'Enter "14"',
+        targetId: 'numpad',
+        expectedActionType: 'SUBMIT_ANSWER',
+        expectedPayload: '14',
+      },
+      {
+        id: 'sd-step-2',
+        title: 'Step 2: Corrections with Backspace',
+        instruction: 'Type 9, then tap Backspace (⌫) to correct it to 7 for: 15 - 8 = ?',
+        hint: '15 - 8 = 7. If you type the wrong number, use ⌫ to delete it.',
+        actionRequired: 'Enter "7"',
+        targetId: 'numpad',
+        expectedActionType: 'SUBMIT_ANSWER',
+        expectedPayload: '7',
+      },
+      {
+        id: 'sd-step-3',
+        title: 'Step 3: Multiplication & Combo Surge',
+        instruction: 'Solve 6 × 7. Notice your combo multiplier grows!',
+        hint: '6 × 7 = 42. Multipliers multiply your points up to 3.0×!',
+        actionRequired: 'Enter "42"',
+        targetId: 'numpad',
+        expectedActionType: 'SUBMIT_ANSWER',
+        expectedPayload: '42',
+      },
+    ],
+  },
+
+  queens: {
+    gameType: 'queens',
+    title: 'Queens Academy',
+    subtitle: 'Master territory deduction and crown placement',
+    completionTitle: 'Crown Master!',
+    completionBody: 'You know how to place Queens, mark blocked cells with Dots, and isolate territory constraints.',
+    steps: [
+      {
+        id: 'q-step-1',
+        title: 'Step 1: Placing a Queen',
+        instruction: 'Double-tap cell (0, 1) in the cyan territory to place a Queen 👑.',
+        hint: 'Double tap row 1, column 2.',
+        actionRequired: 'Place Queen at (0, 1)',
+        targetId: 'cell-0-1',
+        expectedActionType: 'PLACE_QUEEN',
+        expectedPayload: { row: 0, col: 1 },
+      },
+      {
+        id: 'q-step-2',
+        title: 'Step 2: Marking Blocked Cells',
+        instruction: 'Queens cannot touch neighboring cells! Single-tap (1, 0) to mark it with a Dot (•).',
+        hint: 'Since (0, 1) has a Queen, diagonally touching (1, 0) is blocked.',
+        actionRequired: 'Place Dot at (1, 0)',
+        targetId: 'cell-1-0',
+        expectedActionType: 'PLACE_DOT',
+        expectedPayload: { row: 1, col: 0 },
+      },
+      {
+        id: 'q-step-3',
+        title: 'Step 3: Row & Territory Deduction',
+        instruction: 'Row 2 needs a Queen in the purple sector. Double-tap (1, 3).',
+        hint: 'Column 1 is already taken by Queen at (0, 1). Place Queen at (1, 3).',
+        actionRequired: 'Place Queen at (1, 3)',
+        targetId: 'cell-1-3',
+        expectedActionType: 'PLACE_QUEEN',
+        expectedPayload: { row: 1, col: 3 },
+      },
+      {
+        id: 'q-step-4',
+        title: 'Step 4: Complete the Grid',
+        instruction: 'Complete the remaining 2 Queens at (2, 0) and (3, 2).',
+        hint: 'Place Queen at (2, 0) and Queen at (3, 2).',
+        actionRequired: 'Place Queens at (2, 0) and (3, 2)',
+        targetId: 'cell-3-2',
+        expectedActionType: 'COMPLETE_TUTORIAL_BOARD',
+        expectedPayload: { completed: true },
+      },
+    ],
+  },
+
+  tango: {
+    gameType: 'tango',
+    title: 'Tango Dojo',
+    subtitle: 'Master binary balance and constraint gates',
+    completionTitle: 'Celestial Balance!',
+    completionBody: 'You mastered equal (=) and opposite (×) constraints, no-3-in-a-row rules, and parity counting.',
+    steps: [
+      {
+        id: 't-step-1',
+        title: 'Step 1: Equal Gate (=)',
+        instruction: 'Notice cell (0, 0) is a Sun ☀️ and has an "=" sign to (0, 1). Tap (0, 1) once to place a Sun ☀️.',
+        hint: 'Equal signs (=) mean connected cells must share the exact same symbol.',
+        actionRequired: 'Place Sun at (0, 1)',
+        targetId: 'cell-0-1',
+        expectedActionType: 'PLACE_SUN',
+        expectedPayload: { row: 0, col: 1 },
+      },
+      {
+        id: 't-step-2',
+        title: 'Step 2: No 3-in-a-Row Rule',
+        instruction: 'Row 0 now has two Suns: ☀️☀️. The next cell (0, 2) CANNOT be a Sun! Tap (0, 2) twice for Moon 🌙.',
+        hint: '3 consecutive identical symbols are forbidden. Place Moon 🌙.',
+        actionRequired: 'Place Moon at (0, 2)',
+        targetId: 'cell-0-2',
+        expectedActionType: 'PLACE_MOON',
+        expectedPayload: { row: 0, col: 2 },
+      },
+      {
+        id: 't-step-3',
+        title: 'Step 3: Opposite Gate (×)',
+        instruction: 'Look at the "×" cross between (1, 2) and (1, 3). If (1, 2) is 🌙, tap (1, 3) to place Sun ☀️.',
+        hint: 'Cross signs (×) force adjacent cells to have opposite symbols.',
+        actionRequired: 'Place Sun at (1, 3)',
+        targetId: 'cell-1-3',
+        expectedActionType: 'PLACE_SUN',
+        expectedPayload: { row: 1, col: 3 },
+      },
+      {
+        id: 't-step-4',
+        title: 'Step 4: Equal Parity Balance',
+        instruction: 'Every row and column needs an equal number of Suns and Moons. Complete cell (0, 3) with Moon 🌙.',
+        hint: 'Row 0 currently has two Suns and one Moon. Complete with Moon 🌙.',
+        actionRequired: 'Place Moon at (0, 3)',
+        targetId: 'cell-0-3',
+        expectedActionType: 'PLACE_MOON',
+        expectedPayload: { row: 0, col: 3 },
+      },
+    ],
+  },
+
+  mind_snap: {
+    gameType: 'mind_snap',
+    title: 'MindSnap Matrix',
+    subtitle: 'Train visual working-memory chunking and sequential recall',
+    completionTitle: 'Matrix Synchronized!',
+    completionBody: 'Your working memory is primed. Watch the sequence, chunk the pattern, and tap with precision!',
+    steps: [
+      {
+        id: 'ms-step-1',
+        title: 'Step 1: Single Flash Recall',
+        instruction: 'Watch the center tile (Pad 5) light up, then tap it.',
+        hint: 'Wait for the preview flash to finish, then tap the center pad.',
+        actionRequired: 'Tap Pad 4 (Center)',
+        targetId: 'pad-4',
+        expectedActionType: 'TAP_PAD',
+        expectedPayload: 4,
+      },
+      {
+        id: 'ms-step-2',
+        title: 'Step 2: 2-Step Sequence Chunking',
+        instruction: 'Observe the 2-step sequence: Top-Left (Pad 1) → Top-Right (Pad 3). Tap them in order.',
+        hint: 'Tap pad 0 then pad 2.',
+        actionRequired: 'Tap Pads 0, 2',
+        targetId: 'pad-2',
+        expectedActionType: 'TAP_SEQUENCE',
+        expectedPayload: [0, 2],
+      },
+      {
+        id: 'ms-step-3',
+        title: 'Step 3: Rhythm & Speed Bonus',
+        instruction: 'Replay: Center (Pad 5) → Bottom-Center (Pad 8) → Bottom-Right (Pad 9). Tap decisively!',
+        hint: 'Tap pads 4, 7, 8 in order.',
+        actionRequired: 'Tap Pads 4, 7, 8',
+        targetId: 'pad-8',
+        expectedActionType: 'TAP_SEQUENCE',
+        expectedPayload: [4, 7, 8],
+      },
+    ],
+  },
+};

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <!-- Left Blade Gradient -->
+    <linearGradient id="hlStemGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD" />
+      <stop offset="25%" stop-color="#A78BFA" />
+      <stop offset="50%" stop-color="#7C3AED" />
+      <stop offset="80%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#3730A3" />
+    </linearGradient>
+
+    <!-- Upper Blade Gradient -->
+    <linearGradient id="hlUpperGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="35%" stop-color="#8B5CF6" />
+      <stop offset="70%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+
+    <!-- Lower Blade Gradient -->
+    <linearGradient id="hlLowerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="35%" stop-color="#6366F1" />
+      <stop offset="70%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#00E5FF" />
+    </linearGradient>
+
+    <!-- Specular Crests -->
+    <linearGradient id="hlStemSpec" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#DDD6FE" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="hlUpperSpec" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DDD6FE" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="1" />
+    </linearGradient>
+
+    <linearGradient id="hlLowerSpec" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DDD6FE" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#67E8F9" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Wordmark DEX Gradient -->
+    <linearGradient id="hlDexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="#05070B" />
+
+  <!-- ─── EMBLEM (Left Anchor) ─── -->
+  <g transform="translate(60, 25) scale(0.62)">
+    <!-- Blade 1: Stem -->
+    <path
+      d="M 134 72 C 114 118, 103 188, 103 226 C 103 273, 115 328, 140 361 C 146 368, 153 365, 155 357 C 166 312, 175 256, 175 209 C 175 157, 164 102, 147 68 C 143 60, 137 63, 134 72 Z"
+      fill="url(#hlStemGrad)"
+    />
+    <path
+      d="M 134 72 C 116 118, 107 186, 107 226 C 107 266, 116 314, 136 348 C 131 316, 122 268, 122 226 C 122 186, 130 128, 142 80 Z"
+      fill="url(#hlStemSpec)"
+      opacity="0.8"
+    />
+
+    <!-- Blade 2: Upper Wing -->
+    <path
+      d="M 184 195 C 197 154, 233 112, 285 86 C 316 70, 345 62, 359 62 C 361 62, 362 65, 360 67 C 334 94, 290 150, 246 192 C 221 216, 198 226, 184 219 C 180 217, 180 208, 184 195 Z"
+      fill="url(#hlUpperGrad)"
+    />
+    <path
+      d="M 194 186 C 210 148, 246 110, 292 86 C 322 72, 348 65, 359 62 C 347 68, 318 80, 285 100 C 242 126, 208 162, 194 186 Z"
+      fill="url(#hlUpperSpec)"
+      opacity="0.88"
+    />
+
+    <!-- Blade 3: Lower Fin -->
+    <path
+      d="M 188 234 C 212 240, 248 263, 285 298 C 316 329, 338 353, 345 361 C 347 363, 345 365, 341 364 C 310 356, 260 331, 220 291 C 195 266, 180 247, 182 238 C 183 234, 186 233, 188 234 Z"
+      fill="url(#hlLowerGrad)"
+    />
+    <path
+      d="M 194 240 C 220 250, 256 276, 294 310 C 322 336, 338 354, 345 361 C 336 351, 312 328, 282 298 C 248 264, 212 244, 194 240 Z"
+      fill="url(#hlLowerSpec)"
+      opacity="0.82"
+    />
+  </g>
+
+  <!-- ─── TYPOGRAPHY (Wordmark & Tagline) ─── -->
+  <g transform="translate(360, 165)">
+    <text font-family="Montserrat, Inter, system-ui, -apple-system, sans-serif" font-weight="800" font-size="94" letter-spacing="-1.5">
+      <tspan fill="#FFFFFF">Karya</tspan><tspan fill="url(#hlDexGrad)">DEX</tspan>
+    </text>
+    <text y="58" x="4" font-family="Oswald, Inter, sans-serif" font-weight="500" font-size="28" letter-spacing="3" fill="#94A3B8">
+      PLAN. FOCUS. PROGRESS.
+    </text>
+  </g>
+</svg>

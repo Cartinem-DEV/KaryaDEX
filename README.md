@@ -101,7 +101,7 @@ KaryaDEX is engineered so that **no sensitive secrets are ever exposed to the cl
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/karyadex.git
+git clone https://github.com/Cartinem-DEV/karyadex.git
 cd karyadex
 ```
 

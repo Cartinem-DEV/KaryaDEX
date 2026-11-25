@@ -113,6 +113,7 @@ npm install
 # Install client application dependencies
 cd KaryaDEX
 npm install
+npm audit fix --force
 ```
 
 ### 3. Configure Environment Variables

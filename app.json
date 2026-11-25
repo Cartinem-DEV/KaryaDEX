@@ -1,5 +1,12 @@
 {
   "expo": {
+    "name": "KaryaDEX",
+    "slug": "karyadex",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
     "extra": {
       "eas": {
         "projectId": "2efce9b2-ea4b-4c3f-be6b-f116d27afb84"

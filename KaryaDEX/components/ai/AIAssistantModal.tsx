@@ -349,11 +349,12 @@ export const AIAssistantModal: React.FC<AIAssistantModalProps> = ({
   const [selectedAttachmentForPreview, setSelectedAttachmentForPreview] = useState<ChatAttachment | null>(null);
   const [showAttachmentMenu, setShowAttachmentMenu] = useState<boolean>(false);
   const [activeContext, setActiveContext] = useState<PersonalizedContext | null>(null);
-  const scrollViewRef = useRef<ScrollViewInstance>(null);
+  const scrollViewRef = useRef<any>(null);
+  const ChatScrollView = ScrollView as React.ComponentType<any>;
 
   const scrollToBottom = (animated = true) => {
     setTimeout(() => {
-      scrollViewRef.current?.scrollToEnd({ animated });
+      scrollViewRef.current?.scrollToEnd?.({ animated });
     }, 60);
   };
 
@@ -1384,7 +1385,7 @@ export const AIAssistantModal: React.FC<AIAssistantModalProps> = ({
         </ScrollView>
 
         {/* Content Area */}
-        <ScrollView
+        <ChatScrollView
           ref={scrollViewRef}
           onContentSizeChange={() => scrollToBottom(false)}
           style={styles.contentScroll}
@@ -1624,7 +1625,7 @@ export const AIAssistantModal: React.FC<AIAssistantModalProps> = ({
               <Text style={styles.errorMsgText}>{errorMsg}</Text>
             </View>
           ) : null}
-        </ScrollView>
+        </ChatScrollView>
 
         {/* Input Bar */}
         <View style={styles.inputBar}>

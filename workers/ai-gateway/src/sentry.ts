@@ -28,7 +28,7 @@ export function initSentry(env: Env): void {
         },
         initialScope: {
           tags: {
-            service: 'bunkmatkar-ai-gateway',
+            service: 'karyadex-ai-gateway',
             runtime: 'cloudflare-workers',
           },
         },
@@ -36,7 +36,7 @@ export function initSentry(env: Env): void {
     } else {
       const scope = Sentry.getCurrentScope();
       scope.setTags({
-        service: 'bunkmatkar-ai-gateway',
+        service: 'karyadex-ai-gateway',
         runtime: 'cloudflare-workers',
         environment,
       });

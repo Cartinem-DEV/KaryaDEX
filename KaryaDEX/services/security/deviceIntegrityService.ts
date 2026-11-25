@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Device Integrity & Platform Attestation Service (Phase 11.5)
+ * KaryaDEX — Device Integrity & Platform Attestation Service (Phase 11.5)
  *
  * Implements risk-based defense-in-depth:
  * 1. Root / Jailbreak / Debugger environment risk indicators.

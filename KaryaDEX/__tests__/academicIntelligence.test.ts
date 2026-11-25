@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 6: Academic Intelligence Core Tests
+ * KaryaDEX — Phase 6: Academic Intelligence Core Tests
  *
  * Full verification of all 36 Phase 6 requirements:
  *  1. semester listing

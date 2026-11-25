@@ -1,10 +1,10 @@
 /**
- * BunkMatKar — Onboarding Screen 3 (Banku & Shanky Dual AI Showcase) Tests
+ * KaryaDEX — Onboarding Screen 3 (Banku & Shanky Dual AI Showcase) Tests
  *
  * Validates:
  * 1. Step order and screen flow integration (welcome -> showcase_attendance -> showcase_ai -> profile)
  * 2. OnboardingStep type definitions
- * 3. Exact mascot capabilities and persona metadata matching BunkMatKar Robot Mascot Design Board
+ * 3. Exact mascot capabilities and persona metadata matching KaryaDEX Robot Mascot Design Board
  * 4. Pagination dot configuration (Screen 3 active: dot 3)
  */
 

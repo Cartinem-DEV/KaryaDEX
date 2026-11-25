@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — ATTENDANCE Screen
+ * KaryaDEX — ATTENDANCE Screen
  * 
  * Visual redesign as a premium analytics surface:
  * - Overall attendance hero card in Primary Glass

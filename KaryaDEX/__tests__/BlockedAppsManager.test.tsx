@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — BlockedAppsManager Tests
+ * KaryaDEX — BlockedAppsManager Tests
  *
  * Verifies the BlockedAppsManager UI component and store integration.
  */
@@ -40,16 +40,16 @@ describe('BlockedAppsManager', () => {
     jest.clearAllMocks();
   });
 
-  it('renders empty state when no blocked apps', () => {
-    render(
+  it('renders empty state when no blocked apps', async () => {
+    await render(
       <BlockedAppsManager userId={mockUserId} visible={true} onClose={jest.fn()} />
     );
     expect(screen.getByText('No blocked apps yet')).toBeDefined();
   });
 
-  it('displays list of blocked apps when apps exist', () => {
+  it('displays list of blocked apps when apps exist', async () => {
     const nowIso = new Date().toISOString();
-    render(
+    await render(
       <BlockedAppsManager
         userId={mockUserId}
         visible={true}

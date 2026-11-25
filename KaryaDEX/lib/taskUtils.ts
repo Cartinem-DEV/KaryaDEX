@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Task Engine 2.0 Utilities
+ * KaryaDEX — Task Engine 2.0 Utilities
  *
  * Provides:
  * - Smart date & time labels (dynamic, timezone-safe in UTC+5:30)

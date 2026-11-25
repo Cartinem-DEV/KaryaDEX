@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — GlassButton Component
+ * KaryaDEX — GlassButton Component
  *
  * Glassmorphic interactive button with:
  * - 3-tier glass backdrop blur styling

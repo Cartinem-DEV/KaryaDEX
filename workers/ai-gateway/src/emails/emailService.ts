@@ -81,7 +81,7 @@ export class EmailService {
   ): Promise<EmailResponse> {
     const email = typeof requestOrEmail === 'string' ? requestOrEmail : requestOrEmail.email;
     const firstName = typeof requestOrEmail === 'string' ? options?.firstName : requestOrEmail.firstName;
-    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'BunkMatKar';
+    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'KaryaDEX';
 
     return this.sendEmail(
       email,
@@ -104,7 +104,7 @@ export class EmailService {
     const resetUrl =
       (typeof requestOrEmail === 'string' ? options?.resetUrl : requestOrEmail.resetUrl) ||
       `${this.appBaseUrl}/reset-password`;
-    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'BunkMatKar';
+    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'KaryaDEX';
 
     return this.sendEmail(
       email,
@@ -128,7 +128,7 @@ export class EmailService {
     const verificationUrl =
       (typeof requestOrEmail === 'string' ? options?.verificationUrl : requestOrEmail.verificationUrl) ||
       `${this.appBaseUrl}/verify-email`;
-    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'BunkMatKar';
+    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'KaryaDEX';
 
     return this.sendEmail(
       email,
@@ -158,7 +158,7 @@ export class EmailService {
   ): Promise<EmailResponse> {
     const email = typeof requestOrEmail === 'string' ? requestOrEmail : requestOrEmail.email;
     const payload = typeof requestOrEmail === 'string' ? options! : requestOrEmail;
-    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'BunkMatKar';
+    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'KaryaDEX';
 
     return this.sendEmail(
       email,
@@ -194,7 +194,7 @@ export class EmailService {
   ): Promise<EmailResponse> {
     const email = typeof requestOrEmail === 'string' ? requestOrEmail : requestOrEmail.email;
     const payload = typeof requestOrEmail === 'string' ? options! : requestOrEmail;
-    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'BunkMatKar';
+    const appName = (typeof requestOrEmail === 'string' ? options?.appName : undefined) || this.fromName || 'KaryaDEX';
 
     const subject =
       payload.daysUntil === 0

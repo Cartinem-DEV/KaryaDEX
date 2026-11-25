@@ -1,4 +1,4 @@
-# BunkMatKar Design System
+# KaryaDEX Design System
 
 A living reference for UI work in this app. Distilled from the project's own
 `constants/theme.ts` tokens, shaped by two curated design-system references:
@@ -187,7 +187,7 @@ branch on `Platform.OS`; never hand-roll platform shadow objects in components.
 
 ## 9. Agent Prompt Guide
 
-When asked to build or change UI in `bunkmatkar/`:
+When asked to build or change UI in `karyadex/`:
 
 1. Read this file, then `constants/theme.ts` (single source of truth — tokens
    here are summarized, the code is canonical).
@@ -203,5 +203,5 @@ When asked to build or change UI in `bunkmatkar/`:
 
 ---
 *Derived from Expo and Vercel DESIGN.md analyses (VoltAgent/awesome-design-md,
-alpha) adapted to BunkMatKar's mobile glassmorphism system. Update this file
+alpha) adapted to KaryaDEX's mobile glassmorphism system. Update this file
 when theme tokens change.*

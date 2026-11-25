@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Banku Persona (Heavy Lifter / Vision AI)
+ * KaryaDEX — Banku Persona (Heavy Lifter / Vision AI)
  *
  * Specializes in multimodal academic intelligence:
  * routine image parsing, timetable extraction, PDF schedule parsing,

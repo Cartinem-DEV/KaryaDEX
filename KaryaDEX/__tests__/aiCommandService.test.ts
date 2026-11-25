@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Command Service & Natural Language Mutation Tests
+ * KaryaDEX — AI Command Service & Natural Language Mutation Tests
  *
  * Verifies that Banku (and Shanky) can be commanded via chat to:
  * 1. Delete tasks by exact or fuzzy title matching

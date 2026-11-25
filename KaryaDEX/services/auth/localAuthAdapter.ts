@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Local SQLite Auth Adapter (Phase 10)
+ * KaryaDEX — Local SQLite Auth Adapter (Phase 10)
  *
  * Implements IAuthAdapter with local SQLite backing.
  * Provides offline-first account creation, password hashing, session tokens,
@@ -342,7 +342,7 @@ export class LocalAuthAdapter implements IAuthAdapter {
 
   async signInWithGoogle(idToken?: string, rawNonce?: string): Promise<AuthResult> {
     const db = await getDatabaseConnection();
-    const googleEmail = 'google.student@bunkmatkar.app';
+    const googleEmail = 'google.student@karyadex.app';
     const name = 'Google Student';
 
     let account = await db.getFirstAsync<{

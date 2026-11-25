@@ -1,8 +1,8 @@
-# BunkMatKar Feature Preservation Map: Non-Negotiable Core Architecture
+# KaryaDEX Feature Preservation Map: Non-Negotiable Core Architecture
 
 ## 1. Architectural Integrity Directive
 
-The UI/UX and Onboarding Reimagination (Phase 13) strictly redesigns how students interact with and understand BunkMatKar. **Under no circumstances may underlying services, repositories, database schemas, sync mechanics, or security boundaries be disconnected, stubbed, or mocked.**
+The UI/UX and Onboarding Reimagination (Phase 13) strictly redesigns how students interact with and understand KaryaDEX. **Under no circumstances may underlying services, repositories, database schemas, sync mechanics, or security boundaries be disconnected, stubbed, or mocked.**
 
 This document provides a comprehensive inventory of all system capabilities and specifies their preservation contracts.
 

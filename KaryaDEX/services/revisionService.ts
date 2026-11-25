@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Revision Intelligence Service
+ * KaryaDEX — Revision Intelligence Service
  *
  * Computes topic-level revision status, revision progress, and backlog metrics.
  *

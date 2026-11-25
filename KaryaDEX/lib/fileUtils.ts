@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — File Utilities (Phase 12.2)
+ * KaryaDEX — File Utilities (Phase 12.2)
  *
  * Cross-platform helpers for file-to-base64 reading and magic-byte extraction.
  * Supports Web (FileReader / fetch blob) and Native (expo-file-system).

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Timetable Slot Repository
+ * KaryaDEX — Timetable Slot Repository
  */
 
 import { getDatabaseConnection } from '../db';

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Playground Component
+ * KaryaDEX — Playground Component
  *
  * A collection of quick math and logic games that users can play
  * during focus break intervals. Games integrate with the lockin

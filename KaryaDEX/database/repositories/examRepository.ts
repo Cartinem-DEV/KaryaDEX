@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Exams & Exam Topics Repository
+ * KaryaDEX — Exams & Exam Topics Repository
  */
 
 import { getDatabaseConnection } from '../db';

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Database Types & Interfaces
+ * KaryaDEX — Database Types & Interfaces
  */
 
 export interface DatabaseConnection {

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — StreakCard
+ * KaryaDEX — StreakCard
  *
  * Liquid Glass streak visualization showing current daily streak,
  * longest streak, total sessions, and total focus minutes.

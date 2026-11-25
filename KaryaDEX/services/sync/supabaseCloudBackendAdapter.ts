@@ -2,7 +2,7 @@
 /**
  * SupabaseCloudBackendAdapter (Phase 10.5)
  * Real Supabase implementation of ICloudBackendAdapter.
- * Bridges BunkMatKar's Sync Engine with Supabase PostgreSQL and Row-Level Security.
+ * Bridges KaryaDEX's Sync Engine with Supabase PostgreSQL and Row-Level Security.
  */
 
 import { getSupabaseClient } from '../supabase/supabaseClient';

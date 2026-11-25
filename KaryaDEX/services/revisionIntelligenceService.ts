@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Revision Intelligence Service (Phase 7)
+ * KaryaDEX — Revision Intelligence Service (Phase 7)
  *
  * Deterministic, offline-first intelligence service that derives the current
  * revision state, history, and revision priority of Topics using existing academic

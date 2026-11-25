@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — SessionConfigModal
+ * KaryaDEX — SessionConfigModal
  *
  * Modal for selecting exam presets and focus configuration.
  * Loads default and custom presets, and supports exam searching/selection.

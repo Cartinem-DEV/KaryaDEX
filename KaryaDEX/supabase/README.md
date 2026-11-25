@@ -1,7 +1,7 @@
-# BunkMatKar Supabase Database Setup
+# KaryaDEX Supabase Database Setup
 
 ## Overview
-This directory contains the production-ready PostgreSQL migrations for the BunkMatKar Supabase backend.
+This directory contains the production-ready PostgreSQL migrations for the KaryaDEX Supabase backend.
 
 ## Architecture
 - **Multi-Tenant Isolation:** Every table enforces `user_id UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE`.

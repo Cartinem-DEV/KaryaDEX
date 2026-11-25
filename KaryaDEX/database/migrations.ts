@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Database Migration Runner
+ * KaryaDEX — Database Migration Runner
  *
  * Handles versioned, idempotent schema migrations.
  * Never edits past migrations; appends new migrations sequentially.

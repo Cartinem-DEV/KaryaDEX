@@ -1,6 +1,6 @@
 // services/sync/syncTypes.ts
 /**
- * Types and interfaces for the BunkMatKar Sync Engine
+ * Types and interfaces for the KaryaDEX Sync Engine
  */
 
 export type SyncStatus = 'synced' | 'syncing' | 'offline' | 'error' | 'pending';

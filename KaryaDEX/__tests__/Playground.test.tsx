@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Brain Playground Tests
+ * KaryaDEX — Brain Playground Tests
  *
  * Validates the dedicated Playground feature:
  * - Matrix Escape cognitive store (usePlaygroundStore)

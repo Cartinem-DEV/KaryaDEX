@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Syllabus & Topics Repository
+ * KaryaDEX — Syllabus & Topics Repository
  *
  * Manages syllabus units, topics, and cascading integrity rules.
  */

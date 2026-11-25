@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — App Settings & Storage Settings Repository
+ * KaryaDEX — App Settings & Storage Settings Repository
  */
 
 import { getDatabaseConnection } from '../db';

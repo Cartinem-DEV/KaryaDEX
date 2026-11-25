@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Academic Intelligence Engine (Phase 12)
+ * KaryaDEX — AI Academic Intelligence Engine (Phase 12)
  *
  * Central export index for AI services, personas, features, and policies.
  */

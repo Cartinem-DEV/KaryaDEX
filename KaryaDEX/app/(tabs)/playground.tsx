@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Brain Playground Tab Screen
+ * KaryaDEX — Brain Playground Tab Screen
  *
  * An independent, immersive neuro-training environment designed to break
  * free from mindless social media doomscrolling and rewire focus with

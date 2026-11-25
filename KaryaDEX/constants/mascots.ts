@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Official Mascot Asset Catalog & Telemetry Configurations
+ * KaryaDEX — Official Mascot Asset Catalog & Telemetry Configurations
  *
  * Implements design board specifications from Onboarding Screen 3:
  * - Banku: Amber (#F59E0B), Academic Guardian, Vision AI (Doc/routine parsing, syllabus auditing)

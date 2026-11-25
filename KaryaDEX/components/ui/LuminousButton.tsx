@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — LuminousButton Component
+ * KaryaDEX — LuminousButton Component
  *
  * The signature Dual-Glow Luminous Pill Button from Onboarding 1 and 2:
  * - Amber-to-Cyan illuminated gradient border

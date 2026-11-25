@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Auth Adapter Interface (Phase 10)
+ * KaryaDEX — Auth Adapter Interface (Phase 10)
  *
  * Defines the contract for authentication adapters (local/SQLite, Supabase, Firebase, etc.).
  */

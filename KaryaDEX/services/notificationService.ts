@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Local Notification Engine (Phase 4)
+ * KaryaDEX — Local Notification Engine (Phase 4)
  *
  * Implements:
  * - Local-only scheduled notifications via NotificationPlatformAdapter

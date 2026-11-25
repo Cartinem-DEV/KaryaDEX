@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Academic Backup & Restore Validation Service (Phase 11.6)
+ * KaryaDEX — Academic Backup & Restore Validation Service (Phase 11.6)
  *
  * Implements strict defensive validation for backup restoration:
  * 1. Schema & structure validation (requires valid academic entities).

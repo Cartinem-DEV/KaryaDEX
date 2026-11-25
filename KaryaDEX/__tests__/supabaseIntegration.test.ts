@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 10.5: Real Supabase Backend Integration Tests
+ * KaryaDEX — Phase 10.5: Real Supabase Backend Integration Tests
  *
  * Comprehensive verification of:
  *  1. Supabase Environment Configuration & Validation
@@ -49,7 +49,7 @@ describe('Phase 10.5: Real Supabase Backend Integration', () => {
   let cloudAdapter: SupabaseCloudBackendAdapter;
 
   beforeEach(async () => {
-    process.env.EXPO_PUBLIC_SUPABASE_URL = 'https://bunkmatkar-test.supabase.co';
+    process.env.EXPO_PUBLIC_SUPABASE_URL = 'https://karyadex-test.supabase.co';
     process.env.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY = 'sb_test_publishable_anon_jwt_token_123';
 
     resetDatabaseConnectionForTesting();
@@ -124,7 +124,7 @@ describe('Phase 10.5: Real Supabase Backend Integration', () => {
             const userId = 'sb_google_idtoken_user_1';
             const user = {
               id: userId,
-              email: 'google.student@bunkmatkar.edu',
+              email: 'google.student@karyadex.edu',
               user_metadata: { name: 'Google Student User' },
               created_at: new Date().toISOString(),
             };
@@ -142,7 +142,7 @@ describe('Phase 10.5: Real Supabase Backend Integration', () => {
           const userId = 'sb_google_user_99';
           const user = {
             id: userId,
-            email: 'google.student@bunkmatkar.edu',
+            email: 'google.student@karyadex.edu',
             user_metadata: { name: 'Google Student User' },
             created_at: new Date().toISOString(),
           };
@@ -167,7 +167,7 @@ describe('Phase 10.5: Real Supabase Backend Integration', () => {
               access_token: 'mock_active_token',
               user: {
                 id: 'sb_test_user_1',
-                email: 'test@bunkmatkar.edu',
+                email: 'test@karyadex.edu',
                 user_metadata: { name: 'Active Test Student' },
                 created_at: new Date().toISOString(),
               },
@@ -309,7 +309,7 @@ describe('Phase 10.5: Real Supabase Backend Integration', () => {
       // Temporarily mock isSupabaseConfigured for adapter testing
       const res = await authAdapter.signUp({
         name: 'Kabir Verma',
-        email: 'kabir@bunkmatkar.edu',
+        email: 'kabir@karyadex.edu',
         password: 'securePassword123',
       });
 
@@ -369,7 +369,7 @@ describe('Phase 10.5: Real Supabase Backend Integration', () => {
       const fakeGoogleIdToken = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjEyMyJ9.fake_google_id_token_payload';
       const res = await authAdapter.signInWithGoogle(fakeGoogleIdToken, rawNonce);
       expect(res.success).toBe(true);
-      expect(res.user?.email).toBe('google.student@bunkmatkar.edu');
+      expect(res.user?.email).toBe('google.student@karyadex.edu');
       expect(res.session?.token).toBe('sb_idtok_tok_sb_google_idtoken_user_1');
     });
 
@@ -461,7 +461,7 @@ describe('Phase 10.5: Real Supabase Backend Integration', () => {
       const auth = AuthService.getInstance();
       await auth.signUp({
         name: 'Sync Student',
-        email: 'sync_student@bunkmatkar.edu',
+        email: 'sync_student@karyadex.edu',
         password: 'password123',
       });
 
@@ -500,7 +500,7 @@ describe('Phase 10.5: Real Supabase Backend Integration', () => {
       const auth = AuthService.getInstance();
       const signupRes = await auth.signUp({
         name: 'Migrated Student',
-        email: 'migrated@bunkmatkar.edu',
+        email: 'migrated@karyadex.edu',
         password: 'password123',
       });
 
@@ -526,7 +526,7 @@ describe('Phase 10.5: Real Supabase Backend Integration', () => {
       const auth = AuthService.getInstance();
       const signup = await auth.signUp({
         name: 'Multi Device User',
-        email: 'multi_sb@bunkmatkar.edu',
+        email: 'multi_sb@karyadex.edu',
         password: 'password123',
       });
       const userId = signup.user!.id;

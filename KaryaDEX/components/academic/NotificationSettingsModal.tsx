@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Notification Settings Modal (Phase 4)
+ * KaryaDEX — Notification Settings Modal (Phase 4)
  *
  * Allows configuring:
  * - Master notification switch

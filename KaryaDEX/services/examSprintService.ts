@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Exam Sprint Service (Phase 7)
+ * KaryaDEX — Exam Sprint Service (Phase 7)
  *
  * Deterministic service that computes Exam Readiness and generates sequenced,
  * workload-aware Exam Sprint revision plans.

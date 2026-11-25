@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Gemini 400 Base64 Document Upload Fix Validation
+ * KaryaDEX — Gemini 400 Base64 Document Upload Fix Validation
  *
  * Validates:
  * 1. Web FileReader and Native picker base64 parsing (separating MIME, stripping data: prefix, stripping whitespace).

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Structured Output Validator (Phase 12)
+ * KaryaDEX — AI Structured Output Validator (Phase 12)
  *
  * Enforces runtime schema validation and data integrity on all AI outputs.
  * Prevents model hallucinations, invalid IDs, malformed dates, and fabricated numbers.

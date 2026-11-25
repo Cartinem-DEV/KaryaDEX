@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Notification Platform Adapter
+ * KaryaDEX — Notification Platform Adapter
  *
  * Provides a clean abstraction boundary over Expo Notifications:
  * - Native Expo adapter for iOS / Android

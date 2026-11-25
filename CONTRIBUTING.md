@@ -21,19 +21,16 @@ By participating in this project, you agree to uphold a welcoming, respectful, a
 
 ### 2. Fork and Clone
 ```bash
-git clone https://github.com/<your-username>/karyadex.git
-cd karyadex
+git clone https://github.com/Cartinem-DEV/KaryaDEX.git
+cd KaryaDEX
 ```
 
 ### 3. Install Dependencies
 ```bash
-# Install root workspace dependencies
-npm install
-
-# Install client app dependencies
-cd KaryaDEX
-npm install
+# Install all client and gateway dependencies cleanly
+npm run setup
 ```
+*(Or install individually inside `KaryaDEX/` and `workers/ai-gateway/` with `npm install`.)*
 
 ### 4. Configure Environment
 ```bash

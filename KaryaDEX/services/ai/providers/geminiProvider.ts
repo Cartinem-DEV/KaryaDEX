@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Google Gemini Provider Adapter (Phase 12)
+ * KaryaDEX — Google Gemini Provider Adapter (Phase 12)
  *
  * Implements Gemini 3.8 Flash (Primary) and Gemini 3.7 Flash (Fallback).
  * Compliant with modern Gemini API specifications (thinking level, structured JSON, multimodal inlineData).

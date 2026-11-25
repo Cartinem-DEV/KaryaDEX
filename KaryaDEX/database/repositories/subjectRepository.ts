@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Subject & College/Semester Repository
+ * KaryaDEX — Subject & College/Semester Repository
  */
 
 import { getDatabaseConnection } from '../db';

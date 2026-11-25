@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — SubjectHistoryView
+ * KaryaDEX — SubjectHistoryView
  *
  * Chronological Class History & Notes feed for Subject Hub.
  * Shows all class sessions with attendance, topics covered, personal notes,

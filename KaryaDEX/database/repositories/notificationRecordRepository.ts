@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Notification Records Repository
+ * KaryaDEX — Notification Records Repository
  *
  * Provides durable persistence and duplicate prevention for scheduled notifications.
  */

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Database Barrel Export
+ * KaryaDEX — Database Barrel Export
  *
  * Single import point for all database-related modules.
  */

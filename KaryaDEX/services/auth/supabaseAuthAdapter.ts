@@ -2,7 +2,7 @@
 /**
  * SupabaseAuthAdapter (Phase 10.5)
  * Real Supabase implementation of IAuthAdapter.
- * Bridges Supabase Auth with BunkMatKar's domain authentication contract.
+ * Bridges Supabase Auth with KaryaDEX's domain authentication contract.
  */
 
 import { Platform } from 'react-native';
@@ -330,7 +330,7 @@ export class SupabaseAuthAdapter implements IAuthAdapter {
           const top = window.screenY + (window.outerHeight - height) / 2;
           const popup = window.open(
             data.url,
-            'bunkmatkar_google_signin',
+            'karyadex_google_signin',
             `width=${width},height=${height},left=${left},top=${top},status=no,resizable=yes`
           );
 
@@ -395,7 +395,7 @@ export class SupabaseAuthAdapter implements IAuthAdapter {
       }
 
       const redirectUri = Linking.createURL('auth/callback', {
-        scheme: 'bunkmatkar',
+        scheme: 'karyadex',
       });
 
       const { data, error } = await supabase.auth.signInWithOAuth({

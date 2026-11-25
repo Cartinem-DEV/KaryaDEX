@@ -1,6 +1,6 @@
 // supabase/functions/ai-gateway/index.ts
 /**
- * BunkMatKar — Secure AI Gateway Edge Function (Phase 12 Production)
+ * KaryaDEX — Secure AI Gateway Edge Function (Phase 12 Production)
  *
  * Runs exclusively in Supabase Edge Runtime.
  * Enforces JWT authentication, user tenant boundary, rate limiting,

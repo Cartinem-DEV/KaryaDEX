@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Onboarding Domain Types & Interfaces
+ * KaryaDEX — Onboarding Domain Types & Interfaces
  */
 
 export type OnboardingStep =

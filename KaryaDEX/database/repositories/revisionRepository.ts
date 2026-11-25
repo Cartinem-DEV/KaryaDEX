@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Topic Revision Repository (Phase 7)
+ * KaryaDEX — Topic Revision Repository (Phase 7)
  *
  * Persistent, SQLite-backed repository for topic revision history records.
  * Supports CRUD, topic/subject/semester filtering, date ranges, latest revision,

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Response Cache Service (Phase 12)
+ * KaryaDEX — AI Response Cache Service (Phase 12)
  *
  * Scopes cached responses strictly by (userId + feature + versionKey).
  * Guarantees zero cross-tenant cache leakage and invalidation on data changes.
@@ -16,7 +16,7 @@ export interface AICacheRecord<T = any> {
   expiresAt: string;
 }
 
-const CACHE_PREFIX = 'bunkmatkar_ai_cache_';
+const CACHE_PREFIX = 'karyadex_ai_cache_';
 
 export class AICacheService {
   private inMemoryMap: Map<string, AICacheRecord> = new Map();

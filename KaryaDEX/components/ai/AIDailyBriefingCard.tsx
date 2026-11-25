@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Daily AI Briefing Card (Phase 12)
+ * KaryaDEX — Daily AI Briefing Card (Phase 12)
  *
  * Displays prioritized morning intelligence:
  * "What should I do today?", classes, urgent tasks, attendance warnings.

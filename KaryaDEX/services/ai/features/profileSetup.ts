@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Feature 2: Natural-Language Profile Setup (Phase 12 Shanky MVP)
+ * KaryaDEX — Feature 2: Natural-Language Profile Setup (Phase 12 Shanky MVP)
  *
  * Student types or speaks their background in natural language ->
  * Shanky extracts candidate profile & subjects ->

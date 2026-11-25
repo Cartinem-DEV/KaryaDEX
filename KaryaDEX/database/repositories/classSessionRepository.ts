@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Class Session & Journal Repository
+ * KaryaDEX — Class Session & Journal Repository
  *
  * Provides transactional persistence for individual Class Session occurrences and journals.
  */

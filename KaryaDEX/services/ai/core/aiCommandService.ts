@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Command & Direct Mutation Engine
+ * KaryaDEX — AI Command & Direct Mutation Engine
  *
  * Empowers Banku (and Shanky) to act as authoritative academic commanders.
  * Direct chat commanding parses and executes student requests to:

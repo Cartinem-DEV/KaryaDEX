@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Controlled AI Context Builder (Phase 12)
+ * KaryaDEX — Controlled AI Context Builder (Phase 12)
  *
  * Gathers strictly the minimum required academic context for AI requests.
  * Reads exclusively from authoritative repositories and domain services.

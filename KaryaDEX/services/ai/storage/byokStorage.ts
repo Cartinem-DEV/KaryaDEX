@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — BYOK Secure Storage (Phase 12)
+ * KaryaDEX — BYOK Secure Storage (Phase 12)
  *
  * Stores optional user-provided API keys in hardware-backed SecureStore (mobile)
  * or encrypted in-memory (web/test).

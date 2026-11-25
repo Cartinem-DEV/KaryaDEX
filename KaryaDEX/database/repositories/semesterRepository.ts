@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Semester Repository (Phase 6)
+ * KaryaDEX — Semester Repository (Phase 6)
  *
  * Provides dedicated data access for multi-semester management:
  * - getCurrentSemester

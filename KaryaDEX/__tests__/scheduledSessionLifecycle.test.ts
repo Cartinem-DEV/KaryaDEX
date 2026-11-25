@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Scheduled Session Lifecycle Tests
+ * KaryaDEX — Scheduled Session Lifecycle Tests
  *
  * Verifies that scheduled focus sessions create and complete DB records.
  */

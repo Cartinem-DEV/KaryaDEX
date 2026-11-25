@@ -1,7 +1,7 @@
 // services/sync/syncService.ts
 /**
  * SyncService
- * Central synchronization coordinator for BunkMatKar.
+ * Central synchronization coordinator for KaryaDEX.
  * Manages push, pull, conflict resolution, retry handling, and sync status state.
  * Offline-first: SQLite is the local source of truth; sync runs in the background.
  */

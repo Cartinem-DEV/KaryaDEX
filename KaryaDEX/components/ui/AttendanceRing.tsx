@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AttendanceRing Component
+ * KaryaDEX — AttendanceRing Component
  * 
  * Circular progress indicator for attendance percentage with
  * refined typography, subtle track contrast, and status coloring.

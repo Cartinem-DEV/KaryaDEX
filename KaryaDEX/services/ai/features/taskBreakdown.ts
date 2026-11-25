@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Feature 5: Complex Task Breakdown (Phase 12 Shanky MVP)
+ * KaryaDEX — Feature 5: Complex Task Breakdown (Phase 12 Shanky MVP)
  *
  * User requests help on a large assignment/study goal ->
  * Shanky breaks it down into 3-5 structured subtasks with estimated minutes ->

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Security, Privacy & Adversarial Hardening Tests (Phase 12)
+ * KaryaDEX — AI Security, Privacy & Adversarial Hardening Tests (Phase 12)
  *
  * Validates:
  * - Prompt injection boundaries & tag breakout neutralization

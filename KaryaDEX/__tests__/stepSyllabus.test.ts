@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — StepSyllabus Multi-File Banku Vision & Dual-Mode Architecture Tests
+ * KaryaDEX — StepSyllabus Multi-File Banku Vision & Dual-Mode Architecture Tests
  *
  * Verifies:
  * 1. Multi-File & Mixed-Media Upload Queue:

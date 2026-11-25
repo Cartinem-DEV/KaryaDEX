@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Academic Components Barrel Export
+ * KaryaDEX — Academic Components Barrel Export
  */
 
 export { ClassSessionModal } from './ClassSessionModal';

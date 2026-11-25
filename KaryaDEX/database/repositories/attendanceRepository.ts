@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Attendance SQLite Repository
+ * KaryaDEX — Attendance SQLite Repository
  *
  * Persists granular attendance records and authoritative aggregate counters.
  */

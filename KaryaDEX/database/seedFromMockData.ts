@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Mock Data Seeder
+ * KaryaDEX — Mock Data Seeder
  *
  * On first-ever launch, migrates current in-memory mock data into SQLite.
  * After successful seeding, sets a sentinel key ('data_seeded' = '1')

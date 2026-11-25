@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Academic Intelligence Engine Types (Phase 12)
+ * KaryaDEX — AI Academic Intelligence Engine Types (Phase 12)
  *
  * Strict contracts for provider abstraction, persona routing, proposal flow,
  * safety policies, and runtime validation.

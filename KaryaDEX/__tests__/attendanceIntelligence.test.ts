@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 8: Advanced Attendance Intelligence Tests
+ * KaryaDEX — Phase 8: Advanced Attendance Intelligence Tests
  *
  * Full verification of all Phase 8 requirements:
  *  1. Attendance Snapshot (attended, missed, total, percentage, target, margin, status)

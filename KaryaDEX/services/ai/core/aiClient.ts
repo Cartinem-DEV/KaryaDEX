@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Client (Phase 12 / 12.2)
+ * KaryaDEX — AI Client (Phase 12 / 12.2)
  *
  * Central client for all AI interactions.
  * Connects securely to the Cloudflare Workers AI Gateway,

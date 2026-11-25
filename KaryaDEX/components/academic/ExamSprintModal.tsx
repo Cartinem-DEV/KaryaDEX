@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Exam Sprint Modal (Phase 7)
+ * KaryaDEX — Exam Sprint Modal (Phase 7)
  *
  * Surfaces deterministic Exam Readiness snapshot and sequenced,
  * workload-aware day-by-day revision sprint plans.

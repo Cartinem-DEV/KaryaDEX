@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Subject Hub (Detail Page) — Phase 6
+ * KaryaDEX — Subject Hub (Detail Page) — Phase 6
  * 
  * Upgraded Academic Command Center with 8 canonical tabs:
  * 1. OVERVIEW: Attendance ring, what-if simulator, quick stats, archive subject

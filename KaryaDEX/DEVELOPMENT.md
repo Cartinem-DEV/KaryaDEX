@@ -1,6 +1,6 @@
-# BunkMatKar — Development Guide & Workflow
+# KaryaDEX — Development Guide & Workflow
 
-This document outlines the professional daily development workflow for **BunkMatKar** using Expo SDK 57, Metro Bundler, Expo Go, and Expo Web.
+This document outlines the professional daily development workflow for **KaryaDEX** using Expo SDK 58, Metro Bundler, Expo Go, and Expo Web.
 
 ---
 
@@ -38,7 +38,7 @@ graph LR
 3. A large QR code and Metro server details will appear in your terminal.
 4. Open the **Expo Go** app on your Android phone.
 5. Tap **Scan QR code** and point your camera at the terminal QR code.
-6. The BunkMatKar app bundle will download and launch on your phone.
+6. The KaryaDEX app bundle will download and launch on your phone.
 7. Edit any component, screen, or style in Antigravity IDE and press **Save** (`Ctrl + S`).
 8. **Fast Refresh** updates your phone screen in milliseconds without losing your app state.
 

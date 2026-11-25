@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Onboarding Progress Repository
+ * KaryaDEX — Onboarding Progress Repository
  *
  * Persists onboarding state machine progress, current step, and step draft data.
  */

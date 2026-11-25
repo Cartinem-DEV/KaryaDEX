@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — App Lock & Biometric Privacy Service (Phase 11.5)
+ * KaryaDEX — App Lock & Biometric Privacy Service (Phase 11.5)
  *
  * Provides optional user-controlled biometric/device authentication to protect
  * sensitive academic records (marks, attendance, private notes, accounts).

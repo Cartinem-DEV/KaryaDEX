@@ -1,4 +1,4 @@
-# BunkMatKar UI/UX Migration Plan: Staged Implementation Roadmap
+# KaryaDEX UI/UX Migration Plan: Staged Implementation Roadmap
 
 ## 1. Migration Strategy & Principles
 

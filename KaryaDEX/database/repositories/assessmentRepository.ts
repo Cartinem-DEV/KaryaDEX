@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Assessments & Grades SQLite Repository
+ * KaryaDEX — Assessments & Grades SQLite Repository
  */
 
 import { getDatabaseConnection } from '../db';

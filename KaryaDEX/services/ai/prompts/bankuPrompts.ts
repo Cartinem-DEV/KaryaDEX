@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Banku Specialized Prompts (Phase 12)
+ * KaryaDEX — Banku Specialized Prompts (Phase 12)
  *
  * Prompts for multimodal timetable & document extraction.
  */

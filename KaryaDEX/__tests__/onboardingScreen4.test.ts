@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Onboarding Screen 4 (Authentication Gate) Integration Tests
+ * KaryaDEX — Onboarding Screen 4 (Authentication Gate) Integration Tests
  *
  * Validates:
  * 1. Step order placing 'auth' at index 3 (Screen 4) following Screen 1 (welcome), Screen 2 (showcase_attendance), and Screen 3 (showcase_ai)

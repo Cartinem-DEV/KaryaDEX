@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Class Session Workspace & Journal Modal
+ * KaryaDEX — Class Session Workspace & Journal Modal
  *
  * Professional academic workspace for one real occurrence of a class.
  * Canonical record linking:

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Google Identity Services & ID Token Authentication Tests
+ * KaryaDEX — Google Identity Services & ID Token Authentication Tests
  *
  * Comprehensive verification of:
  * 1. Cryptographic raw nonce generation & SHA-256 hashing.

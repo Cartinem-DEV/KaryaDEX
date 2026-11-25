@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Full AI Chat Verification Tests (Banku & Shanky)
+ * KaryaDEX — Full AI Chat Verification Tests (Banku & Shanky)
  *
  * Verifies:
  * 1. Banku can answer ANY type of question:

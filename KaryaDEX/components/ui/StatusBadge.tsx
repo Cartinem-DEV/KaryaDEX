@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — StatusBadge Component
+ * KaryaDEX — StatusBadge Component
  * 
  * Refined translucent glass pill badge for SAFE / WATCH / DANGER states.
  */

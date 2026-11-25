@@ -1,8 +1,9 @@
 {
-  "name": "college-app-workspace",
+  "name": "karyadex-workspace",
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "setup": "npm --prefix KaryaDEX install && npm --prefix workers/ai-gateway install",
     "start": "npm --prefix KaryaDEX run start",
     "start:lan": "npm --prefix KaryaDEX run start:lan",
     "web": "npm --prefix KaryaDEX run web",
@@ -11,17 +12,7 @@
     "ios": "npm --prefix KaryaDEX run ios",
     "clear": "npm --prefix KaryaDEX run clear",
     "typecheck": "npm --prefix KaryaDEX run typecheck",
-    "test": "npm --prefix KaryaDEX test"
-  },
-  "devDependencies": {
-    "@babel/plugin-syntax-jsx": "^8.0.1",
-    "@babel/preset-react": "^8.0.1",
-    "@babel/preset-typescript": "^8.0.7",
-    "babel-jest": "^30.5.2"
-  },
-  "dependencies": {
-    "expo": "^58.0.22",
-    "react": "19.3.0",
-    "react-native": "0.88.1"
+    "test": "npm --prefix KaryaDEX test",
+    "test:gateway": "npm --prefix workers/ai-gateway test"
   }
 }

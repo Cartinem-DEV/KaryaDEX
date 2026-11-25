@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Capability Router & Intelligent Fallback Engine (Phase 12)
+ * KaryaDEX — AI Capability Router & Intelligent Fallback Engine (Phase 12)
  *
  * Routes requests based on persona and capability requirements.
  * Executes primary model with automated, intelligent fallback on retryable failures only.

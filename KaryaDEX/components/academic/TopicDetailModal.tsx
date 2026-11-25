@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Topic Academic Context Modal (Phase 7)
+ * KaryaDEX — Topic Academic Context Modal (Phase 7)
  *
  * Shows comprehensive academic context for a topic:
  * - Overview & Unit

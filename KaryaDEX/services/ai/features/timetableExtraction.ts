@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Feature 1: Timetable & Routine Extraction (Phase 12 Banku MVP)
+ * KaryaDEX — Feature 1: Timetable & Routine Extraction (Phase 12 Banku MVP)
  *
  * Upload routine image / screenshot / PDF ->
  * File security & magic-byte validation ->

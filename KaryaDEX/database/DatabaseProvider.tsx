@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Database Provider
+ * KaryaDEX — Database Provider
  *
  * React context that initializes the database (migrations + seed)
  * and hydrates Zustand stores from SQLite before rendering children.

@@ -4,7 +4,7 @@
 
 # 1. Dependencies & Package Caches
 node_modules/
-*/node_modules/
+**/node_modules/
 .pnp
 .pnp.js
 package-lock.json.bak
@@ -31,14 +31,14 @@ package-lock.json.bak
 *.apk
 *.aab
 *.xapk
-extracted_xapk/
-extracted_astra_xapk/
-webapp_analysis/
-_regain_analysis/
+/extracted_xapk/
+/extracted_astra_xapk/
+/webapp_analysis/
+/_regain_analysis/
 com.matiks.app*
 ai.regainapp*
 co.astra_ai*
-errors/
+/errors/
 Capture.PNG
 Capture*.png
 *.riv.bak
@@ -52,31 +52,27 @@ test_results.json
 */test_results.json
 .temp/
 */.temp/
-KaryaDEX/workers/
-docs/qa/
-*/docs/qa/
-docs/reverse-engineering/
-*/docs/reverse-engineering/
-docs/superpowers/
-*/docs/superpowers/
-phase*.md
-*/phase*.md
-*_report.md
-*/_report.md
-add_exams.py
-add_more_exams.py
-count_exams.py
-REA
-.claude/
-.remember/
-.superpowers/
-webcmd-browser/
-Onboarding/
-bunkmatkar/
-*.png
-!KaryaDEX/assets/**/*.png
-!assets/**/*.png
-!docs/**/*.png
+/KaryaDEX/.temp/
+KaryaDEX/supabase/.temp/
+/KaryaDEX/workers/
+/KaryaDEX/docs/qa/
+/KaryaDEX/docs/reverse-engineering/
+/KaryaDEX/docs/superpowers/
+/KaryaDEX/docs/rebranding/
+/KaryaDEX/phase*.md
+/KaryaDEX/*_report.md
+/KaryaDEX/add_exams.py
+/KaryaDEX/add_more_exams.py
+/KaryaDEX/count_exams.py
+/KaryaDEX/REA
+/.claude/
+/KaryaDEX/.claude/
+/.remember/
+/.superpowers/
+/KaryaDEX/.superpowers/
+/webcmd-browser/
+/Onboarding/
+/*.png
 
 # 5. Playwright & Browser Automation Artifacts
 .playwright-mcp/
@@ -94,21 +90,25 @@ npm_run_web.log
 
 # 7. Expo & Metro Build Outputs
 .expo/
-dist/
+**/.expo/
+/dist/
+/KaryaDEX/dist/
+/KaryaDEX/dist_test/
 web-build/
 expo-env.d.ts
 .metro-health-check*
 
-# 8. Android Native Build Outputs
-android/
-KaryaDEX/android/
+# 8. Android Native Build Outputs (preserve modules/*/android source!)
+/android/
+/KaryaDEX/android/
 .gradle/
-build/
+**/.gradle/
+**/build/
 local.properties
 
-# 9. iOS Native Build Outputs
-ios/
-KaryaDEX/ios/
+# 9. iOS Native Build Outputs (preserve modules/*/ios source!)
+/ios/
+/KaryaDEX/ios/
 Pods/
 *.xcworkspace
 *.xcuserdata

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Root Layout
+ * KaryaDEX — Root Layout
  *
  * App entry point with theme provider and navigation stack.
  */

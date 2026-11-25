@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 12.2 Acceptance Test Suite
+ * KaryaDEX — Phase 12.2 Acceptance Test Suite
  *
  * Validates:
  * 1. Banku Connectivity & Error Truthfulness (Gateway auth, no client key requirement, truthful error types)

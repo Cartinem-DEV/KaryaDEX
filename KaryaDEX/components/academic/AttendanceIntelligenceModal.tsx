@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AttendanceIntelligenceModal Component (Phase 8)
+ * KaryaDEX — AttendanceIntelligenceModal Component (Phase 8)
  *
  * Comprehensive Attendance Intelligence Modal:
  * - Deterministic Attendance Intelligence Snapshot
@@ -9,7 +9,7 @@
  * - Exam-Aware Attendance Exposure
  * - Interactive Multi-Class What-If Simulator (miss, attend, custom)
  * - 1-tap Attendance Task creation for recovery planning
- * - Accessible, responsive, aligned with BunkMatKar glassmorphism design system
+ * - Accessible, responsive, aligned with KaryaDEX glassmorphism design system
  */
 
 import React, { useState } from 'react';

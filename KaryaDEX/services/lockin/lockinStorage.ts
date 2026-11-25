@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Lockin Storage Service
+ * KaryaDEX — Lockin Storage Service
  *
  * SQLite-backed repository for Lockin sessions, streaks, and exam presets.
  * Provides CRUD operations, queries, and streak computation logic.

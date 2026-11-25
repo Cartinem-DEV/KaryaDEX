@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Conversational Chat Feature (Shanky / Mistral 8B)
+ * KaryaDEX — Conversational Chat Feature (Shanky / Mistral 8B)
  *
  * Implements general conversational academic assistance for students.
  * Feeds bounded deterministic academic context (attendance, schedule, tasks)

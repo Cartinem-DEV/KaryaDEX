@@ -115,7 +115,7 @@ describe('STUDY-2.2.1: Production Verification & Integration Closure', () => {
         title: 'CS501_Computer_Networks_Syllabus.pdf',
         subjectId: 'subj-cn-501',
         type: 'pdf',
-        uri: `file:///storage/emulated/0/Documents/BunkMatKar_UserFiles/${resourceId}.pdf`,
+        uri: `file:///storage/emulated/0/Documents/KaryaDEX_UserFiles/${resourceId}.pdf`,
         fileSize: testPdfBuffer.length,
         mimeType: 'application/pdf',
         source: 'local_upload',

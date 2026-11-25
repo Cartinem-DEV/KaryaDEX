@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "KaryaDEX",
-    "slug": "bunkmatkar",
+    "slug": "karyadex",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "bunkmatkar",
+    "scheme": "karyadex",
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
@@ -27,7 +27,7 @@
         "android.permission.USE_BIOMETRIC",
         "android.permission.USE_FINGERPRINT"
       ],
-      "package": "com.bunkmatkar.bunkmatkar"
+      "package": "com.karyadex.app"
     },
     "web": {
       "bundler": "metro",
@@ -56,8 +56,8 @@
       [
         "@sentry/react-native/expo",
         {
-          "organization": "bunkmatkar",
-          "project": "bunkmatkar",
+          "organization": "karyadex",
+          "project": "karyadex",
           "url": "https://sentry.io"
         }
       ],

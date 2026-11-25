@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Academic Analytics Service (Phase 6)
+ * KaryaDEX — Academic Analytics Service (Phase 6)
  *
  * Core intelligence engine providing:
  * - Attendance forecasting (miss N, attend N, mixed scenarios)

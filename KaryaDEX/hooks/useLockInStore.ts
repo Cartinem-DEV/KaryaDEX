@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Lockin Zustand Store
+ * KaryaDEX — Lockin Zustand Store
  *
  * Global state management for LOCKIN focus timer feature.
  * Manages sessions, streaks, presets, and timer state with persistence.

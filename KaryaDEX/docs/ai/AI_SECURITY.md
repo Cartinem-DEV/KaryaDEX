@@ -1,4 +1,4 @@
-# BunkMatKar — AI Security & Threat Model (Phase 12)
+# KaryaDEX — AI Security & Threat Model (Phase 12)
 
 ## 1. Golden Rules Enforcement
 1. **Rule 1 — Deterministic Academic Math:** AI outputs are validated against system truth. Any discrepancy > 0.1% or fabricated safe bunk capacity triggers immediate rejection.

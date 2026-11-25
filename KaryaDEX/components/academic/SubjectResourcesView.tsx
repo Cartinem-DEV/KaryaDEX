@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — SubjectResourcesView
+ * KaryaDEX — SubjectResourcesView
  *
  * Subject Resources Viewer & Manager for Subject Hub.
  * Shows PDFs, lecture links, slides, and study notes.

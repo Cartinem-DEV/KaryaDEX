@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — GlassCard Component
+ * KaryaDEX — GlassCard Component
  * 
  * Translucent glass card with 3-tier hierarchy, backdrop blur,
  * subtle 1px translucent border, soft diffused shadow, and inner top highlight.

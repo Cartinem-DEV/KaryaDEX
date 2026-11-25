@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — TypeScript Types & Data Models
+ * KaryaDEX — TypeScript Types & Data Models
  * 
  * Core entities and their relationships for the college-life OS.
  */

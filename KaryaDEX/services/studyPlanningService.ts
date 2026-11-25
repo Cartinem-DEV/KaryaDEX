@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Study Planning & Academic Calendar Service (Phase 9)
+ * KaryaDEX — Study Planning & Academic Calendar Service (Phase 9)
  *
  * Deterministic, offline-first, semester-aware service that unifies academic data
  * across Class Sessions, Tasks, Exams, Revision Intelligence, and Attendance into

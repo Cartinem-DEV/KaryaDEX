@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AcademicCalendarView Component (Phase 9)
+ * KaryaDEX — AcademicCalendarView Component (Phase 9)
  *
  * Unified Academic Calendar experience providing Day, Week, and Month views:
  * - Day View: Detailed daily academic timeline with classes, exams, tasks, workload, and study blocks.

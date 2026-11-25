@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — StepAcademic & Indian Institutions Directory Unit Tests
+ * KaryaDEX — StepAcademic & Indian Institutions Directory Unit Tests
  *
  * Verifies:
  * 1. Indian Institution dataset integrity & metadata (City, State, Acronyms, Categories)

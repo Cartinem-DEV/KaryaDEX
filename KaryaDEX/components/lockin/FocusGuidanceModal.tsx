@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — FocusGuidanceModal
+ * KaryaDEX — FocusGuidanceModal
  *
  * Productivity and iOS/Android DND guidance walkthrough modal
  * explaining how to configure Do Not Disturb and Focus modes during study sessions.

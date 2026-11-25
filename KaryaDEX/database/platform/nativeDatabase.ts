@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Platform Database Loader (Web & Test Fallback)
+ * KaryaDEX — Platform Database Loader (Web & Test Fallback)
  *
  * This file is resolved by Metro on Web and by Node/Jest in test environments.
  * It prevents Metro from statically analyzing and bundling `expo-sqlite` on Web,

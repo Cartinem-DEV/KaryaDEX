@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Match Summary Modal
+ * KaryaDEX — Match Summary Modal
  *
  * Celebrates victories & shows detailed feedback after brain sessions:
  * - XP earned

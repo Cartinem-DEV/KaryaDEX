@@ -1,9 +1,9 @@
 /**
- * BunkMatKar — StorageSettingsModal
+ * KaryaDEX — StorageSettingsModal
  *
  * User Files Location management:
  * - Differentiates APP DATA from USER FILES
- * - Allows switching between "BunkMatKar App Storage (Recommended)" and "Choose folder on device" (Android SAF)
+ * - Allows switching between "KaryaDEX App Storage (Recommended)" and "Choose folder on device" (Android SAF)
  * - Safe migration handling with progress and error reporting
  * - Reset to app storage
  */
@@ -107,7 +107,7 @@ export function StorageSettingsModal({ visible, onClose }: StorageSettingsModalP
           </View>
 
           <Text style={[styles.description, { color: colors.textSecondary }]}>
-            BunkMatKar separates App Data (attendance, database, settings) from your User Files
+            KaryaDEX separates App Data (attendance, database, settings) from your User Files
             (lecture PDFs, PowerPoint slides, scanned camera notes, and attached study documents).
           </Text>
 

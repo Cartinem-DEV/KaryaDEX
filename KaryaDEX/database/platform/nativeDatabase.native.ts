@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Platform Database Loader (Native Android & iOS)
+ * KaryaDEX — Platform Database Loader (Native Android & iOS)
  *
  * This file is resolved by Metro on Android and iOS targets (.native.ts).
  * It loads `expo-sqlite` natively with WAL mode and foreign keys enabled.
@@ -18,7 +18,7 @@ export async function openNativeDatabase(): Promise<DatabaseConnection> {
     // Non-blocking fallback to preserve availability
   }
 
-  const nativeDb = await SQLite.openDatabaseAsync('bunkmatkar.db');
+  const nativeDb = await SQLite.openDatabaseAsync('karyadex.db');
   await nativeDb.execAsync('PRAGMA foreign_keys = ON;');
   await nativeDb.execAsync('PRAGMA journal_mode = WAL;');
 

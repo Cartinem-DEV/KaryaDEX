@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Comprehensive Indian Academic & Institution Directory
+ * KaryaDEX — Comprehensive Indian Academic & Institution Directory
  *
  * Curated dataset of premier Indian Universities, Institutes of National Importance
  * (IITs, NITs, IIITs), Central & State Universities, Top Deemed/Private Institutions,

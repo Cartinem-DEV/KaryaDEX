@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Feature: Academic Calendar & Holiday Extraction (Phase 12.2 Banku)
+ * KaryaDEX — Feature: Academic Calendar & Holiday Extraction (Phase 12.2 Banku)
  *
  * Upload official college circular / calendar / notice image or PDF ->
  * File security & magic-byte validation ->

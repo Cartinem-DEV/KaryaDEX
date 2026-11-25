@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Smart Attendance Explainer Card (Phase 12)
+ * KaryaDEX — Smart Attendance Explainer Card (Phase 12)
  *
  * Enforces Golden Rule 1: Deterministic Academic Math.
  * Authoritative mathematical figures are displayed directly from domain engines.

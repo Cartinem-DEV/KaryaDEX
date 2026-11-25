@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — SubjectSyllabusView
+ * KaryaDEX — SubjectSyllabusView
  *
  * Visual Syllabus & Topic Tracker for Subject Hub.
  * Shows Units -> Topics -> Completion Checkbox -> Revision State.

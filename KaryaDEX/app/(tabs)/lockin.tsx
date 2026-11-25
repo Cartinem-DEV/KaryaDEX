@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — LOCKIN Tab Screen
+ * KaryaDEX — LOCKIN Tab Screen
  *
  * Dedicated screen for the LOCKIN deep work & exam focus timer.
  * Integrates LockInTimer, StreakCard, FocusAnalyticsView, SessionConfigModal,

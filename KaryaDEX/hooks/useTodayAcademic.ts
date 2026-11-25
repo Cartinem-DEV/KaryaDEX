@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Today Academic Data Hook
+ * KaryaDEX — Today Academic Data Hook
  *
  * Exposes data hooks connecting the Today screen to the Academic Extension Store:
  * - current class / next class occurrences

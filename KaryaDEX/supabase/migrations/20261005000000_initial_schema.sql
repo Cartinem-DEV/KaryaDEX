@@ -1,5 +1,5 @@
 -- ====================================================================
--- BunkMatKar Supabase PostgreSQL Schema Migration (Phase 10.5)
+-- KaryaDEX Supabase PostgreSQL Schema Migration (Phase 10.5)
 -- Multi-Tenant, Row-Level-Security Scoped Academic Cloud Data Model
 -- ====================================================================
 

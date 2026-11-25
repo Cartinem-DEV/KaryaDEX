@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 5: Production Onboarding & Real Academic Setup Tests
+ * KaryaDEX — Phase 5: Production Onboarding & Real Academic Setup Tests
  *
  * Comprehensive verification of all 30 Phase 5 requirements:
  *
@@ -53,8 +53,8 @@ jest.mock('expo-print', () => ({
 }));
 
 jest.mock('expo-file-system/legacy', () => ({
-  documentDirectory: 'file:///data/user/0/com.bunkmatkar/files/',
-  cacheDirectory: 'file:///data/user/0/com.bunkmatkar/cache/',
+  documentDirectory: 'file:///data/user/0/com.karyadex/files/',
+  cacheDirectory: 'file:///data/user/0/com.karyadex/cache/',
   getInfoAsync: jest.fn().mockResolvedValue({ exists: true, size: 2048 }),
   makeDirectoryAsync: jest.fn().mockResolvedValue(undefined),
   copyAsync: jest.fn().mockResolvedValue(undefined),

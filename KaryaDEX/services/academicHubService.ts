@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Academic Hub Service (Phase 4)
+ * KaryaDEX — Academic Hub Service (Phase 4)
  *
  * Provides a unified, high-performance academic intelligence layer:
  * - Single TodayAcademicSnapshot derived from canonical data

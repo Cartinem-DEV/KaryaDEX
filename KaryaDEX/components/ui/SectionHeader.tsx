@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — SectionHeader Component
+ * KaryaDEX — SectionHeader Component
  * 
  * Clean section title with subtitle and optional action button.
  */

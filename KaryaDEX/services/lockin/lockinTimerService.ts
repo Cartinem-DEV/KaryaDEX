@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Lockin Timer Service
+ * KaryaDEX — Lockin Timer Service
  *
  * Handles timer notifications, background state management, and platform-specific
  * timer persistence for the LOCKIN focus feature.

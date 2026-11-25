@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Native Session Callbacks Tests
+ * KaryaDEX — Native Session Callbacks Tests
  *
  * Verifies that native session completion callbacks sync to JS store.
  */

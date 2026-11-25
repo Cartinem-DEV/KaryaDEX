@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Authentication Types (Phase 10)
+ * KaryaDEX — Authentication Types (Phase 10)
  *
  * Interfaces and types for user authentication, sessions, and credentials.
  */

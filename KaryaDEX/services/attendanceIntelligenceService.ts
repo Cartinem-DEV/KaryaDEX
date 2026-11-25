@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Attendance Intelligence Service (Phase 8)
+ * KaryaDEX — Attendance Intelligence Service (Phase 8)
  *
  * Core engine providing deterministic, explainable attendance intelligence:
  * - Deterministic Attendance Intelligence Snapshot per subject

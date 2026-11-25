@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 10: Authentication + Cloud Sync Test Suite
+ * KaryaDEX — Phase 10: Authentication + Cloud Sync Test Suite
  *
  * Comprehensive verification of:
  *  1. Migration 7 (Auth & Sync Schema)
@@ -91,12 +91,12 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const service = AuthService.getInstance();
       const res = await service.signUp({
         name: 'Aarav Patel',
-        email: 'aarav@bunkmatkar.edu',
+        email: 'aarav@karyadex.edu',
         password: 'password123',
       });
 
       expect(res.success).toBe(true);
-      expect(res.user?.email).toBe('aarav@bunkmatkar.edu');
+      expect(res.user?.email).toBe('aarav@karyadex.edu');
       expect(res.user?.name).toBe('Aarav Patel');
       expect(service.isAuthenticated()).toBe(true);
       expect(service.getCurrentUser()?.id).toBe(res.user?.id);
@@ -106,13 +106,13 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const service = AuthService.getInstance();
       await service.signUp({
         name: 'First User',
-        email: 'duplicate@bunkmatkar.edu',
+        email: 'duplicate@karyadex.edu',
         password: 'password123',
       });
 
       const res = await service.signUp({
         name: 'Second User',
-        email: 'duplicate@bunkmatkar.edu',
+        email: 'duplicate@karyadex.edu',
         password: 'anotherPassword',
       });
 
@@ -124,7 +124,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const service = AuthService.getInstance();
       await service.signUp({
         name: 'Priya Sharma',
-        email: 'priya@bunkmatkar.edu',
+        email: 'priya@karyadex.edu',
         password: 'mypassword',
       });
 
@@ -132,7 +132,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       expect(service.isAuthenticated()).toBe(false);
 
       const signinRes = await service.signIn({
-        email: 'priya@bunkmatkar.edu',
+        email: 'priya@karyadex.edu',
         password: 'mypassword',
       });
 
@@ -156,7 +156,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const res = await service.signInWithGoogle();
 
       expect(res.success).toBe(true);
-      expect(res.user?.email).toBe('google.student@bunkmatkar.app');
+      expect(res.user?.email).toBe('google.student@karyadex.app');
       expect(service.isAuthenticated()).toBe(true);
 
       const claimedSub = await db.getFirstAsync<{ user_id: string }>(
@@ -183,21 +183,21 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const service = AuthService.getInstance();
       await service.signUp({
         name: 'Test Student',
-        email: 'test@bunkmatkar.edu',
+        email: 'test@karyadex.edu',
         password: 'correctPassword',
       });
 
       await service.signOut();
 
       const wrongPass = await service.signIn({
-        email: 'test@bunkmatkar.edu',
+        email: 'test@karyadex.edu',
         password: 'wrongPassword',
       });
       expect(wrongPass.success).toBe(false);
       expect(wrongPass.error?.code).toBe('invalid_credentials');
 
       const unknownEmail = await service.signIn({
-        email: 'nobody@bunkmatkar.edu',
+        email: 'nobody@karyadex.edu',
         password: 'correctPassword',
       });
       expect(unknownEmail.success).toBe(false);
@@ -208,14 +208,14 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const service = AuthService.getInstance();
       await service.signUp({
         name: 'Reset Student',
-        email: 'reset@bunkmatkar.edu',
+        email: 'reset@karyadex.edu',
         password: 'oldPassword',
       });
 
-      const resetRes = await service.resetPassword('reset@bunkmatkar.edu');
+      const resetRes = await service.resetPassword('reset@karyadex.edu');
       expect(resetRes.success).toBe(true);
 
-      const unknownReset = await service.resetPassword('missing@bunkmatkar.edu');
+      const unknownReset = await service.resetPassword('missing@karyadex.edu');
       expect(unknownReset.success).toBe(false);
     });
 
@@ -223,7 +223,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const service = AuthService.getInstance();
       await service.signUp({
         name: 'To Delete',
-        email: 'delete@bunkmatkar.edu',
+        email: 'delete@karyadex.edu',
         password: 'deleteMe123',
       });
 
@@ -241,7 +241,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const service = AuthService.getInstance();
       const signupRes = await service.signUp({
         name: 'Restart User',
-        email: 'restart@bunkmatkar.edu',
+        email: 'restart@karyadex.edu',
         password: 'passRestart',
       });
       const userId = signupRes.user!.id;
@@ -255,7 +255,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const restoredUser = await restartedService.init();
       expect(restoredUser).not.toBeNull();
       expect(restoredUser?.id).toBe(userId);
-      expect(restoredUser?.email).toBe('restart@bunkmatkar.edu');
+      expect(restoredUser?.email).toBe('restart@karyadex.edu');
       expect(restartedService.isAuthenticated()).toBe(true);
     });
   });
@@ -374,7 +374,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const auth = AuthService.getInstance();
       await auth.signUp({
         name: 'Sync Student',
-        email: 'sync_student@bunkmatkar.edu',
+        email: 'sync_student@karyadex.edu',
         password: 'password123',
       });
 
@@ -407,7 +407,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const auth = AuthService.getInstance();
       await auth.signUp({
         name: 'Offline Student',
-        email: 'offline_student@bunkmatkar.edu',
+        email: 'offline_student@karyadex.edu',
         password: 'password123',
       });
 
@@ -441,7 +441,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const auth = AuthService.getInstance();
       const signup = await auth.signUp({
         name: 'Multi Device User',
-        email: 'multidevice@bunkmatkar.edu',
+        email: 'multidevice@karyadex.edu',
         password: 'password123',
       });
       const userId = signup.user!.id;
@@ -505,7 +505,7 @@ describe('Phase 10: Authentication + Cloud Sync', () => {
       const auth = AuthService.getInstance();
       const signup = await auth.signUp({
         name: 'Converted Student',
-        email: 'converted@bunkmatkar.edu',
+        email: 'converted@karyadex.edu',
         password: 'password123',
       });
 

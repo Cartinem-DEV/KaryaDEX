@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Liquid Glass Tab Navigation Layout
+ * KaryaDEX — Liquid Glass Tab Navigation Layout
  * 
  * Apple-inspired floating Liquid Glass navigation capsule.
  * Features:

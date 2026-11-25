@@ -1,8 +1,8 @@
-# BunkMatKar Onboarding UX Specification: Goal-Driven Academic Assistant Setup
+# KaryaDEX Onboarding UX Specification: Goal-Driven Academic Assistant Setup
 
 ## 1. Vision & Onboarding Principles
 
-Onboarding is the critical threshold of BunkMatKar. Rather than feeling like an administrative compliance form or an anxiety-inducing attendance warning checklist, the onboarding journey must feel like **configuring an intelligent, calm, personal academic assistant**.
+Onboarding is the critical threshold of KaryaDEX. Rather than feeling like an administrative compliance form or an anxiety-inducing attendance warning checklist, the onboarding journey must feel like **configuring an intelligent, calm, personal academic assistant**.
 
 ### Core Tenets:
 1. **Goal-First, Not Fear-First:** The experience begins by understanding the student's aspirations (e.g. consistency, staying organized, exam readiness) rather than attendance panic.
@@ -107,7 +107,7 @@ Offers three optional document shortcuts powered by Banku:
     - If midway through a semester, option to enter existing attendance (e.g. 18 attended out of 22 conducted).
     - If beginning of semester, defaults cleanly to 0/0.
   - Plain-language explanation:
-    - *"BunkMatKar tracks your attendance health deterministically. We calculate your safety cushion and recommend an attendance plan so you never face debarment surprises."*
+    - *"KaryaDEX tracks your attendance health deterministically. We calculate your safety cushion and recommend an attendance plan so you never face debarment surprises."*
 - **Framing Rule:**
   - Positioned as configuring academic health and safety benchmarks, **never** as configuring "how many classes you can afford to skip".
 
@@ -140,7 +140,7 @@ Offers three optional document shortcuts powered by Banku:
 ### Step 8: Enter Your Academic Hub
 - **User Experience:**
   - Final review card summarizing configured subjects, timetable, attendance target, and goals.
-  - Primary button: *"Enter BunkMatKar"*
+  - Primary button: *"Enter KaryaDEX"*
   - The app smoothly transitions to the **Today** tab.
 - **Dynamic Initialization:**
   - If a timetable was imported, today's actual classes immediately populate the Hero card and timeline.

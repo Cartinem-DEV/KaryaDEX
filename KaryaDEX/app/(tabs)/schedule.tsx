@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — SCHEDULE / ACADEMIC CALENDAR Screen (Phase 9)
+ * KaryaDEX — SCHEDULE / ACADEMIC CALENDAR Screen (Phase 9)
  *
  * Upgraded Unified Academic Calendar & Study Planning experience:
  * - Day, Week, and Month views

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Academic Vector Iconography
+ * KaryaDEX — Academic Vector Iconography
  *
  * Replaces all emoji-based UI with crisp, professional vector icons.
  * Powered by @expo/vector-icons (Ionicons & Feather) for pixel-perfect alignment,

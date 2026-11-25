@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Privacy & Data Classification Policy (Phase 12)
+ * KaryaDEX — AI Privacy & Data Classification Policy (Phase 12)
  *
  * Classifies data, prevents accidental leakage of credentials or sensitive data,
  * and ensures minimum necessary context transmission.

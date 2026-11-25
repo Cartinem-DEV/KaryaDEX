@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Attendance Calculation Tests
+ * KaryaDEX — Attendance Calculation Tests
  * 
  * Tests for the attendance calculation utilities.
  * Covers edge cases: 0 classes, 100%, exactly at target, 

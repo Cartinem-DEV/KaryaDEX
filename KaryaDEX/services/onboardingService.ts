@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Onboarding Orchestration Service
+ * KaryaDEX — Onboarding Orchestration Service
  *
  * Coordinates onboarding state machine, draft persistence, conflict checks,
  * validation, and final transactional commitment to SQLite.

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — TODAY Screen
+ * KaryaDEX — TODAY Screen
  * 
  * Visual redesign with refined glassmorphism:
  * - Ambient atmospheric background lighting

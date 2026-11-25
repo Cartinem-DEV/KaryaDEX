@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — ArchiveManagerModal Component (Phase 6)
+ * KaryaDEX — ArchiveManagerModal Component (Phase 6)
  *
  * Subject Archive & Restoration Management:
  * - Lists archived subjects with historical attendance stats

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Vector Icon System
+ * KaryaDEX — Vector Icon System
  * 
  * Crisp, monochrome, Apple-inspired vector icons for Liquid Glass UI.
  * Zero font dependencies, 100% reliable across iOS, Android, and Web.

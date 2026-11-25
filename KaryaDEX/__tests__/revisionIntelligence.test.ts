@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 7: Revision Intelligence & Exam Sprint Tests
+ * KaryaDEX — Phase 7: Revision Intelligence & Exam Sprint Tests
  *
  * Full verification of all Phase 7 requirements:
  *  1. RevisionRecord creation & persistence

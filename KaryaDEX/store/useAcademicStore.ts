@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Academic Extension Store (Zustand)
+ * KaryaDEX — Academic Extension Store (Zustand)
  *
  * Separate store for the Phase 1-10 academic features.
  * Keeps existing useAppStore.ts completely untouched.

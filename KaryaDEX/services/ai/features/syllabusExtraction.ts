@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Feature: Syllabus & Topics Extraction (Phase 12.2 Banku)
+ * KaryaDEX — Feature: Syllabus & Topics Extraction (Phase 12.2 Banku)
  *
  * Upload syllabus image / PDF ->
  * File security & magic-byte validation ->

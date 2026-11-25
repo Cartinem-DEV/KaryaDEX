@@ -1,4 +1,4 @@
-# BunkMatKar — AI Data Boundaries & Context Builder (Phase 12)
+# KaryaDEX — AI Data Boundaries & Context Builder (Phase 12)
 
 ## 1. Minimal Scoped Context
 The AI Context Builder (`aiContextBuilder.ts`) enforces the principle of least privilege. Only data strictly required for the requested feature is queried and assembled.

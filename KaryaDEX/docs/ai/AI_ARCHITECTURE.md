@@ -1,7 +1,7 @@
-# BunkMatKar — AI Architecture (Phase 12 & Phase 12.2)
+# KaryaDEX — AI Architecture (Phase 12 & Phase 12.2)
 
 ## 1. Overview
-The **AI Academic Intelligence Engine** introduces production-grade AI into BunkMatKar (College Life OS) while strictly maintaining:
+The **AI Academic Intelligence Engine** introduces production-grade AI into KaryaDEX (College Life OS) while strictly maintaining:
 1. **Deterministic Academic Math Integrity:** Mathematical calculations (attendance %, safe bunk capacity, recovery requirements, date arithmetic, timetable conflict checks) remain 100% owned by existing deterministic domain engines. AI only interprets, explains, and summarizes.
 2. **Zero Direct Database Writes:** AI cannot perform SQL, SQLite, or Supabase mutations directly. Mutations follow the strict proposal pipeline: `AI -> Proposal Draft -> Schema Validation -> UI Preview -> Explicit User Confirmation -> Application Service -> Database`.
 3. **Strict User Data Boundaries:** The Context Builder reads minimum required data scoped by the authenticated student. No complete database dumps, tokens, passwords, or secrets are ever included.

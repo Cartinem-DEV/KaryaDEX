@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Theme Context & Hook
+ * KaryaDEX — Theme Context & Hook
  * 
  * Provides theme-aware colors throughout the app.
  * Supports system theme detection + manual override.

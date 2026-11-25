@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — EmptyState Component
+ * KaryaDEX — EmptyState Component
  * 
  * Refined empty states with glassmorphism backdrop,
  * embossed luminous vector icon badge, and zero emojis.

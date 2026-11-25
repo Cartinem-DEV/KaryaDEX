@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Mistral AI Provider Adapter (Phase 12)
+ * KaryaDEX — Mistral AI Provider Adapter (Phase 12)
  *
  * Implements high-speed inference for Shanky using Mistral AI.
  * Configured with ministral-8b-2512 (Ministral 3 8B).

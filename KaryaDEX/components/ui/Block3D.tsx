@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Block3D Component
+ * KaryaDEX — Block3D Component
  *
  * Universal 3D Extruded Plate / Block Architecture:
  * - Physical extruded bottom & side shelf with depth bevel

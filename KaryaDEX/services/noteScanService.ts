@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Note Scan & Multi-Page PDF Generation Service
+ * KaryaDEX — Note Scan & Multi-Page PDF Generation Service
  *
  * Supports:
  * - Scanning lecture notes with camera

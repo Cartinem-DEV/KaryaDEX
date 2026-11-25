@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Privacy-Aware Audit Service (Phase 12)
+ * KaryaDEX — AI Privacy-Aware Audit Service (Phase 12)
  *
  * Records operational AI telemetry without capturing credentials,
  * tokens, or private user contents.
@@ -8,7 +8,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import type { AIAuditEntry } from './aiTypes';
 
-const AI_AUDIT_KEY = 'bunkmatkar_ai_audit_log';
+const AI_AUDIT_KEY = 'karyadex_ai_audit_log';
 const MAX_LOCAL_AUDIT_LOGS = 100;
 
 export class AIAuditService {

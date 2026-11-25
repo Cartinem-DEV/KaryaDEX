@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — COLLEGE Screen
+ * KaryaDEX — COLLEGE Screen
  * 
  * Visual redesign with layered glass surfaces:
  * - Primary glass semester card

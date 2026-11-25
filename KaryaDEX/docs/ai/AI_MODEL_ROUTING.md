@@ -1,4 +1,4 @@
-# BunkMatKar — AI Model Routing & Fallback Specification (Phase 12)
+# KaryaDEX — AI Model Routing & Fallback Specification (Phase 12)
 
 ## 1. Persona Configuration
 

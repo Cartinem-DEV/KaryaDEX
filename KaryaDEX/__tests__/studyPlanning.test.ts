@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 9: Academic Calendar + Study Planning Tests
+ * KaryaDEX — Phase 9: Academic Calendar + Study Planning Tests
  *
  * Full verification of all Phase 9 requirements:
  *  1. Unified Calendar Event Derivation (classes, exams, tasks, revision, attendance recovery)

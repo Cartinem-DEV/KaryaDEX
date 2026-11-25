@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Extended Academic Type System
+ * KaryaDEX — Extended Academic Type System
  *
  * Phase 1-10 data models for the connected academic OS.
  * All new entities reference the canonical ClassSession -> Subject graph.

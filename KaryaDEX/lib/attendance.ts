@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Attendance Calculation Utilities
+ * KaryaDEX — Attendance Calculation Utilities
  * 
  * All attendance math lives here. These functions must be:
  * - Mathematically correct

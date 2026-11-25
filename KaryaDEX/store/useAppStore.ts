@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Global State Store (Zustand)
+ * KaryaDEX — Global State Store (Zustand)
  * 
  * Single source of truth for app state.
  * Structured to be easily swapped from mock data to Supabase.

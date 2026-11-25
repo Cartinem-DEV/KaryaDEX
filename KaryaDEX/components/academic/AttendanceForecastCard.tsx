@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AttendanceForecastCard Component (Phase 6)
+ * KaryaDEX — AttendanceForecastCard Component (Phase 6)
  *
  * Interactive What-If Attendance Simulator:
  * - Pure deterministic simulation based on canonical attendance formulas

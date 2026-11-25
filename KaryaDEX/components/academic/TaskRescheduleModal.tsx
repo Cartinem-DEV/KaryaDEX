@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — TaskRescheduleModal Component (Phase 9)
+ * KaryaDEX — TaskRescheduleModal Component (Phase 9)
  *
  * Safe date & time selection flow to reschedule canonical tasks.
  * Avoids fragile drag-and-drop on mobile/touch platforms while preserving

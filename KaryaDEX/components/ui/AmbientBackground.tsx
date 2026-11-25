@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Atmospheric Ambient Background Component
+ * KaryaDEX — Atmospheric Ambient Background Component
  *
  * Provides the cinematic obsidian space black atmosphere (#05070B)
  * with dual ambient lighting:

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Fix Phase Regression Suite
+ * KaryaDEX — Fix Phase Regression Suite
  *
  * Verifies all fixed execution paths:
  *   1. P0-3: Topic revision updates persist to SQLite via syllabusRepository.updateTopic

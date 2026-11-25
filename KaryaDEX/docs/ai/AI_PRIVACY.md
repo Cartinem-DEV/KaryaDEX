@@ -1,4 +1,4 @@
-# BunkMatKar — AI Privacy & Data Governance (Phase 12)
+# KaryaDEX — AI Privacy & Data Governance (Phase 12)
 
 ## 1. Data Classification Model
 All application data handled in the AI layer is classified into four tiers:
@@ -43,7 +43,7 @@ Before any payload leaves the client or edge function:
 
 ### 5.2 Data Retention Policy
 - **Standard API Retention**: Mistral retains API request/response metadata and payloads for up to **30 days** solely for trust & safety abuse monitoring, after which logs are permanently deleted.
-- **Zero Data Retention (ZDR)**: ZDR is available as an enterprise/organization agreement tier with Mistral AI. For BunkMatKar free/standard deployments, the 30-day abuse retention window is documented, and all inputs are pre-scrubbed before transmission.
+- **Zero Data Retention (ZDR)**: ZDR is available as an enterprise/organization agreement tier with Mistral AI. For KaryaDEX free/standard deployments, the 30-day abuse retention window is documented, and all inputs are pre-scrubbed before transmission.
 
 ### 5.3 Permitted vs. Prohibited Data Categories for Mistral
 | Category | Permitted to Mistral | Enforced Restrictions |

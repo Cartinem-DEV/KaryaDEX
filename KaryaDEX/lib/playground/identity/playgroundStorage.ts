@@ -15,7 +15,7 @@ import type {
 } from '@/types/playground';
 import { generateDefaultQuests } from './playgroundDefaults';
 
-export const LEGACY_PLAYGROUND_STORAGE_KEY = 'bunkmatkar_playground_storage';
+export const LEGACY_PLAYGROUND_STORAGE_KEY = 'legacy_playground_v1_storage';
 export const PLAYGROUND_STORAGE_PREFIX = 'karyadex_playground_v2';
 export const CLAIM_RECEIPTS_STORAGE_KEY = `${PLAYGROUND_STORAGE_PREFIX}:claim_receipts`;
 export const MIGRATION_JOURNAL_STORAGE_KEY = `${PLAYGROUND_STORAGE_PREFIX}:migration_journal`;

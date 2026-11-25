@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Tasks & Task Relations Repository (Task Engine 2.0)
+ * KaryaDEX — Tasks & Task Relations Repository (Task Engine 2.0)
  *
  * Implements:
  * - Full relational persistence for Task ↔ Subject ↔ ClassSession ↔ Topic ↔ Exam ↔ Resource

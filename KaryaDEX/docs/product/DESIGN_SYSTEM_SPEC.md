@@ -1,8 +1,8 @@
-# BunkMatKar Design System Specification: Apple-Inspired Liquid Glass
+# KaryaDEX Design System Specification: Apple-Inspired Liquid Glass
 
 ## 1. Visual Philosophy & Aesthetic Principles
 
-BunkMatKar employs an Apple-inspired **Liquid Glass** aesthetic engineered specifically for high-density academic workflows:
+KaryaDEX employs an Apple-inspired **Liquid Glass** aesthetic engineered specifically for high-density academic workflows:
 
 - **Calm, Premium & Focused:** The interface feels polished, tactile, and restrained. It evokes clarity and order, avoiding gaudy neon hues or visual noise.
 - **Atmospheric Depth:** Soft, organic ambient lighting orbs (violet, indigo, deep cyan) emanate behind translucent glass surfaces, giving depth without distracting from text.

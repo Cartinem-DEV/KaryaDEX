@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Shanky Persona (Speedster / Logic Chat AI)
+ * KaryaDEX — Shanky Persona (Speedster / Logic Chat AI)
  *
  * Specializes in lightning-fast conversational academic assistant:
  * instant student chat, daily briefing, task breakdown, attendance explanation

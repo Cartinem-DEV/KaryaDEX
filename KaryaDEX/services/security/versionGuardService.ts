@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Version Guard & Security Update Enforcement Service (Phase 11.5)
+ * KaryaDEX — Version Guard & Security Update Enforcement Service (Phase 11.5)
  *
  * Implements server-controlled minimum supported application version enforcement:
  * 1. Checks if current app version meets security baselines.

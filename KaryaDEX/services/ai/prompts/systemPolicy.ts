@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI System Policy & Prompt Injection Defense (Phase 12)
+ * KaryaDEX — AI System Policy & Prompt Injection Defense (Phase 12)
  *
  * Implements strict boundary enforcement, preventing indirect prompt injection
  * from untrusted student notes, OCR timetable results, syllabi, or copied text.

@@ -1,5 +1,5 @@
 // services/monitoring/sentryService.ts
-// Sentry initialization and error capture utilities for BunkMatKar
+// Sentry initialization and error capture utilities for KaryaDEX
 
 import { Platform } from 'react-native';
 import * as Sentry from '@sentry/react-native';
@@ -145,7 +145,7 @@ function sanitizeVars(vars: Record<string, any>): Record<string, any> {
 }
 
 /**
- * Initialize Sentry with BunkMatKar configuration
+ * Initialize Sentry with KaryaDEX configuration
  */
 export function initSentry(): void {
   if (isInitialized) {
@@ -211,7 +211,7 @@ export function initSentry(): void {
       // Initial scope
       initialScope: {
         tags: {
-          app: 'bunkmatkar',
+          app: 'karyadex',
           platform: Platform.OS,
         },
       },

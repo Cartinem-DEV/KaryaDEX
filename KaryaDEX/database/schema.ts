@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Database Schema Definitions (V1)
+ * KaryaDEX — Database Schema Definitions (V1)
  *
  * Defines relational tables, constraints, foreign keys, and indexes.
  */

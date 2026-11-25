@@ -2,17 +2,24 @@
 // Tests Supabase RLS and Edge Function Gateway Cross-Tenant Boundary
 const { createClient } = require('@supabase/supabase-js');
 
-const supabaseUrl = 'https://qimdcbseltdvxdzmdzwb.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFpbWRjYnNlbHRkdnhkem1kendiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTExODI2OTMsImV4cCI6MjEwNjc1ODY5M30.k65MFDeF0F-0gKnphwI4-F4Sgn73I4K4OMWZN6a71ow';
+const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = process.env.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY;
+const userAEmail = process.env.TEST_USER_A_EMAIL;
+const userAPassword = process.env.TEST_USER_A_PASSWORD;
+const userBEmail = process.env.TEST_USER_B_EMAIL;
+const userBPassword = process.env.TEST_USER_B_PASSWORD;
 
 async function runTenantIsolationSuite() {
+  if (!supabaseUrl || !supabaseAnonKey || !userAEmail || !userAPassword || !userBEmail || !userBPassword) {
+    throw new Error('Missing EXPO_PUBLIC_SUPABASE_URL, EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY, or TEST_USER_{A,B}_{EMAIL,PASSWORD} env vars.');
+  }
   console.log('=== REAL TWO-USER TENANT ISOLATION SUITE ===\n');
 
   // Client A
   const clientA = createClient(supabaseUrl, supabaseAnonKey, { auth: { persistSession: false } });
   const authA = await clientA.auth.signInWithPassword({
-    email: 'student_1791451540538@gmail.com',
-    password: 'Password123!Secure',
+    email: userAEmail,
+    password: userAPassword,
   });
   if (authA.error) throw new Error(`User A login failed: ${authA.error.message}`);
   const userA = authA.data.user;
@@ -22,8 +29,8 @@ async function runTenantIsolationSuite() {
   // Client B
   const clientB = createClient(supabaseUrl, supabaseAnonKey, { auth: { persistSession: false } });
   const authB = await clientB.auth.signInWithPassword({
-    email: 'bunkmatkar.test.userb@gmail.com',
-    password: 'Password123!Secure',
+    email: userBEmail,
+    password: userBPassword,
   });
   if (authB.error) throw new Error(`User B login failed: ${authB.error.message}`);
   const userB = authB.data.user;

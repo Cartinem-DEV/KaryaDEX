@@ -1,11 +1,11 @@
 /**
- * BunkMatKar — File Storage Service
+ * KaryaDEX — File Storage Service
  *
  * Distinguishes APP DATA (database, settings, state) vs USER FILES (PDFs, PPTs, scanned notes, attachments).
  *
  * Implements platform-aware storage:
  * - Android 11+: Storage Access Framework (SAF) folder picker support
- * - iOS: App Documents sandbox (`documentDirectory/BunkMatKar/UserFiles/`)
+ * - iOS: App Documents sandbox (`documentDirectory/KaryaDEX/UserFiles/`)
  * - Web: In-memory / Blob / download URL abstractions
  *
  * Ensures files picked or scanned are copied from temporary cache into
@@ -16,7 +16,7 @@ import { Platform } from 'react-native';
 import * as FileSystem from 'expo-file-system/legacy';
 import type { UserStoragePreference } from '@/types/academic';
 
-const USER_FILES_SUBDIR = 'BunkMatKar_UserFiles/';
+const USER_FILES_SUBDIR = 'KaryaDEX_UserFiles/';
 let currentPreference: UserStoragePreference = {
   storageType: 'app_storage',
 };
@@ -362,7 +362,7 @@ class FileStorageService {
         await FileSystem.copyAsync({ from: tempUri, to: targetUri });
       } else {
         // Placeholder for test/mock environments
-        await FileSystem.writeAsStringAsync(targetUri, 'BunkMatKar User File Content');
+        await FileSystem.writeAsStringAsync(targetUri, 'KaryaDEX User File Content');
         size = 28;
       }
 

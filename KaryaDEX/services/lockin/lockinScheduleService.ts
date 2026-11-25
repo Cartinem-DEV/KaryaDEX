@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Lockin Schedule Service
+ * KaryaDEX — Lockin Schedule Service
  *
  * Manages recurring study schedules and coordinates with the native Android
  * alarm manager via LockinModule.

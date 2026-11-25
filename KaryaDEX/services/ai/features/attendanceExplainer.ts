@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Feature 3: Smart Attendance Explainer (Phase 12 Shanky MVP)
+ * KaryaDEX — Feature 3: Smart Attendance Explainer (Phase 12 Shanky MVP)
  *
  * 100% Deterministic Math Pre-computed ->
  * Shanky explains the student's status, safe bunks, recovery needs, and next actions ->

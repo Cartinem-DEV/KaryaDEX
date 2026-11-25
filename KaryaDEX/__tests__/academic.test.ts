@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Academic Extension Unit Tests
+ * KaryaDEX — Academic Extension Unit Tests
  *
  * Tests for the 8 core features of the academic operating system:
  * 1. ClassSession / Timetable slot creation & editing

@@ -1,10 +1,10 @@
-# BunkMatKar Product Philosophy: Personal Academic Life-Management System
+# KaryaDEX Product Philosophy: Personal Academic Life-Management System
 
 ## 1. Executive Summary & Purpose
 
-**BunkMatKar is not an application designed to encourage students to bunk college, skip classes, or game attendance algorithms.**
+**KaryaDEX is not an application designed to encourage students to bunk college, skip classes, or game attendance algorithms.**
 
-The true purpose of BunkMatKar is to help college and university students organize their academic lives so effectively that unnecessary bunking, attendance anxiety, missed deadlines, academic disorganization, last-minute cramming, and constant catch-up become obsolete.
+The true purpose of KaryaDEX is to help college and university students organize their academic lives so effectively that unnecessary bunking, attendance anxiety, missed deadlines, academic disorganization, last-minute cramming, and constant catch-up become obsolete.
 
 The ultimate vision is for students to achieve sustainable academic organization where attendance anxiety and the temptation to bunk out of burnout or overwhelm naturally disappear from their daily lives.
 
@@ -17,7 +17,7 @@ The ultimate vision is for students to achieve sustainable academic organization
 
 For many students, "bunking" is not an act of rebellion; it is a symptom of academic overload, poor visibility into schedules, disorganization, sleep deprivation, and sudden panic over unsubmitted assignments or unprepared tests.
 
-When an app frames itself primarily around "How many classes can I skip?", it reinforces the cycle of avoidance, guilt, and precarious academic standing. BunkMatKar flips this paradigm completely:
+When an app frames itself primarily around "How many classes can I skip?", it reinforces the cycle of avoidance, guilt, and precarious academic standing. KaryaDEX flips this paradigm completely:
 
 | Dimension | Previous Framing (Avoidance / Anxiety) | New Framing (Mastery / Sustainability) |
 | :--- | :--- | :--- |
@@ -54,7 +54,7 @@ Students should never be confronted with an overwhelming wall of analytics when 
 
 ## 4. Student Outcomes
 
-When a student uses BunkMatKar consistently throughout a semester:
+When a student uses KaryaDEX consistently throughout a semester:
 1. **Attendance Stability:** Attendance remains safely above required institutional targets (e.g. 75% or 85%) without daily guesswork.
 2. **Reduced Cognitive Load:** No mental energy is wasted remembering whether an assignment is due Thursday, what room lab is in, or which topics were covered last Tuesday.
 3. **Intentional Decisions:** If an unavoidable life event or health emergency occurs, the student knows their exact mathematical cushion and safe recovery timeline.

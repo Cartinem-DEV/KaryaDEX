@@ -16,8 +16,10 @@ const fs = require('fs');
 const path = require('path');
 const { createClient } = require('@supabase/supabase-js');
 
-const supabaseUrl = 'https://qimdcbseltdvxdzmdzwb.supabase.co';
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFpbWRjYnNlbHRkdnhkem1kendiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTExODI2OTMsImV4cCI6MjEwNjc1ODY5M30.k65MFDeF0F-0gKnphwI4-F4Sgn73I4K4OMWZN6a71ow';
+const supabaseUrl = process.env.EXPO_PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = process.env.EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY;
+const testEmail = process.env.TEST_USER_EMAIL;
+const testPassword = process.env.TEST_USER_PASSWORD;
 
 // Mirror of AIValidation.validateTimetableSlots from services/ai/core/aiValidation.ts
 const VALID_DAYS = new Set([
@@ -107,11 +109,14 @@ async function verifyGeminiLiveInference() {
   };
 
   try {
+    if (!supabaseUrl || !supabaseAnonKey || !testEmail || !testPassword) {
+      throw new Error('Missing EXPO_PUBLIC_SUPABASE_URL, EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY, TEST_USER_EMAIL, or TEST_USER_PASSWORD env vars.');
+    }
     // 1. Authenticate real Supabase test user
     const client = createClient(supabaseUrl, supabaseAnonKey, { auth: { persistSession: false } });
     const authRes = await client.auth.signInWithPassword({
-      email: 'student_1791451540538@gmail.com',
-      password: 'Password123!Secure',
+      email: testEmail,
+      password: testPassword,
     });
 
     if (authRes.error || !authRes.data?.session?.access_token) {

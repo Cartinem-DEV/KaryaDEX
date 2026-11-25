@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Revision Hub Modal (Phase 7)
+ * KaryaDEX — Revision Hub Modal (Phase 7)
  *
  * Dedicated Revision Hub interface:
  * - Filtering by Subject, Exam, Priority, and Revision State

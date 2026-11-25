@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI UI Components Index (Phase 12)
+ * KaryaDEX — AI UI Components Index (Phase 12)
  */
 
 export * from './AIBadge';

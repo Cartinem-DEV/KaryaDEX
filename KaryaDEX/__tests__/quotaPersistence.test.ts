@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Quota Persistence Tests
+ * KaryaDEX — Quota Persistence Tests
  *
  * Verifies that quota usage is persisted to SQLite from native worker.
  */

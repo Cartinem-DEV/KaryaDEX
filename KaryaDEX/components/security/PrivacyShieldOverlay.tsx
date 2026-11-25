@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Privacy Shield Overlay (Phase 11.5)
+ * KaryaDEX — Privacy Shield Overlay (Phase 11.5)
  *
  * Protects sensitive academic content (attendance, marks, private notes) from:
  * 1. OS App Switcher previews and background snapshots (Android Recents & iOS App Switcher)

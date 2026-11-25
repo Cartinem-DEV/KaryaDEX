@@ -1,0 +1,64 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+  <!-- Required permissions -->
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+  <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+  <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" tools:ignore="ProtectedPermissions" />
+  <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN" />
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+  <!-- Internet permission (auto-added but explicit) -->
+  <uses-permission android:name="android.permission.INTERNET" />
+
+  <!-- Expo module auto-export -->
+  <application>
+    <!-- Lockin Service -->
+    <service
+      android:name="com.karyadex.lockin.LockinService"
+      android:foregroundServiceType="data"
+      android:exported="false" />
+
+    <!-- Boot receiver -->
+    <receiver
+      android:name="com.karyadex.lockin.LockinReceiver"
+      android:enabled="true"
+      android:exported="false">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+      </intent-filter>
+    </receiver>
+
+    <!-- Schedule Alarm Receiver -->
+    <receiver
+      android:name="com.karyadex.lockin.ScheduleAlarmReceiver"
+      android:enabled="true"
+      android:exported="false" />
+
+    <!-- Reality Check Overlay Activity -->
+    <activity
+      android:name="com.karyadex.lockin.RealityCheckActivity"
+      android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+      android:exported="false"
+      android:excludeFromRecents="true"
+      android:taskAffinity=""
+      android:launchMode="singleTask" />
+
+    <!-- WorkManager for Quota Monitoring -->
+    <provider
+      android:name="androidx.work.impl.WorkManagerInitializer"
+      android:authorities="${applicationId}.workmanager-init"
+      android:exported="false"
+      android:multiprocess="true" />
+
+    <!-- Emergency Pass Reset Worker is registered via WorkManager, no manifest entry needed -->
+  </application>
+
+  <!-- Expo module definition -->
+  <meta-data
+    android:name="expo.modules.react.NativeModuleLockinModule"
+    android:value="com.karyadex.lockin.LockinModule" />
+
+</manifest>

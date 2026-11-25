@@ -1,7 +1,7 @@
 // components/ui/SyncStatusBadge.tsx
 /**
  * SyncStatusBadge
- * Truthful, non-intrusive indicator of BunkMatKar cloud synchronization status.
+ * Truthful, non-intrusive indicator of KaryaDEX cloud synchronization status.
  */
 
 import React, { useEffect, useState } from 'react';

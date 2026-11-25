@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — DailyStudyPlanCard Component (Phase 9)
+ * KaryaDEX — DailyStudyPlanCard Component (Phase 9)
  *
  * Surfaces the deterministic Today Study Plan:
  * - Workload status (Light, Moderate, Heavy, Overloaded)

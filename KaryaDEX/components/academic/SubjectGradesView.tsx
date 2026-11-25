@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — SubjectGradesView
+ * KaryaDEX — SubjectGradesView
  *
  * Grades & Academic Performance View for Subject Hub.
  * Shows subject overall percentage, letter grade, grade points,

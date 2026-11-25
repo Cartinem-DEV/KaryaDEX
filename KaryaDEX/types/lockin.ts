@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Lockin Mode Domain Types
+ * KaryaDEX — Lockin Mode Domain Types
  *
  * Types for the Lockin feature: focused study sessions with streak tracking
  * and exam presets for Pomodoro-style deep work.

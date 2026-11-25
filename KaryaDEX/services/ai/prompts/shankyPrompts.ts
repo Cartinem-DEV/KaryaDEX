@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Shanky Specialized Prompts (Phase 12)
+ * KaryaDEX — Shanky Specialized Prompts (Phase 12)
  *
  * Prompts for conversational chat, daily briefing, attendance explainer,
  * task breakdown, and natural language profile extraction.

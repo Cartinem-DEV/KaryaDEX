@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Database Encryption & Key Lifecycle Service (Phase 11.5)
+ * KaryaDEX — Database Encryption & Key Lifecycle Service (Phase 11.5)
  *
  * Implements secure key management and SQLCipher encryption readiness:
  * 1. Generates 256-bit cryptographically random encryption key per installation.
@@ -116,7 +116,7 @@ class DatabaseEncryptionService {
       steps: [
         '1. Generate 256-bit master key in SecureStore.',
         '2. Open existing plaintext database as source.',
-        '3. Create encrypted database copy: ATTACH DATABASE "bunkmatkar_encrypted.db" AS encrypted KEY "passphrase";',
+        '3. Create encrypted database copy: ATTACH DATABASE "karyadex_encrypted.db" AS encrypted KEY "passphrase";',
         '4. Export schema and data: SELECT sqlcipher_export("encrypted");',
         '5. Detach and verify record counts match exactly in encrypted copy.',
         '6. Atomically replace plaintext file with encrypted database file upon verified validation.',

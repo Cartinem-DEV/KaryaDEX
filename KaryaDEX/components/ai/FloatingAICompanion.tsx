@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Floating AI Companion (Phase 12.2)
+ * KaryaDEX — Floating AI Companion (Phase 12.2)
  *
  * Universal floating AI button & animated persona selector.
  * Features:

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Assistant Hub Modal (Phase 12 UX Recovery & Multimodal Integration)
+ * KaryaDEX — AI Assistant Hub Modal (Phase 12 UX Recovery & Multimodal Integration)
  *
  * Full interactive assistant modal featuring:
  * - Banku (Heavy Lifter / Vision) & Shanky (Speedster / Logic Chat)
@@ -17,6 +17,7 @@ import {
   StyleSheet,
   TouchableOpacity,
   ScrollView,
+  type ScrollViewInstance,
   TextInput,
   ActivityIndicator,
   Alert,
@@ -348,7 +349,7 @@ export const AIAssistantModal: React.FC<AIAssistantModalProps> = ({
   const [selectedAttachmentForPreview, setSelectedAttachmentForPreview] = useState<ChatAttachment | null>(null);
   const [showAttachmentMenu, setShowAttachmentMenu] = useState<boolean>(false);
   const [activeContext, setActiveContext] = useState<PersonalizedContext | null>(null);
-  const scrollViewRef = useRef<React.ComponentRef<typeof ScrollView>>(null);
+  const scrollViewRef = useRef<ScrollViewInstance>(null);
 
   const scrollToBottom = (animated = true) => {
     setTimeout(() => {

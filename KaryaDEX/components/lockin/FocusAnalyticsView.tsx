@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — FocusAnalyticsView
+ * KaryaDEX — FocusAnalyticsView
  *
  * Liquid Glass statistics view displaying total focus sessions,
  * cumulative focus minutes, average focus score, and session type breakdown.

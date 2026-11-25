@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Resource Metadata SQLite Repository
+ * KaryaDEX — Resource Metadata SQLite Repository
  *
  * Persists resource references, file links, scanned PDF paths, and video links.
  */

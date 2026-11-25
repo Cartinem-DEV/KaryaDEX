@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — LockInTimer
+ * KaryaDEX — LockInTimer
  *
  * Liquid Glass focus countdown with a Reanimated 4 progress ring.
  * The ring animates on the UI thread via animated SVG strokeDashoffset.

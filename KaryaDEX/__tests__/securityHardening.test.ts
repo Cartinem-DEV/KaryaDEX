@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 11.5 Production Security Hardening Test Suite
+ * KaryaDEX — Phase 11.5 Production Security Hardening Test Suite
  *
  * Comprehensive defense-in-depth verification:
  * 1. Password KDF Hardening (PBKDF2-HMAC-SHA-256) & 3-Tier Legacy Migration
@@ -185,7 +185,7 @@ describe('Phase 11.5: Production Security Hardening & Defense-in-Depth', () => {
     });
 
     it('records failed login attempts for non-existent users and triggers rate limits', async () => {
-      const email = 'nonexistent_random_user@bunkmatkar.app';
+      const email = 'nonexistent_random_user@karyadex.app';
       const res = await localAuthAdapter.signIn({
         email,
         password: 'Password123!',

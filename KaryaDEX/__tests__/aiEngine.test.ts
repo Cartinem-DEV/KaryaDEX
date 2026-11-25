@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Engine & Feature Tests (Phase 12)
+ * KaryaDEX — AI Engine & Feature Tests (Phase 12)
  *
  * Validates:
  * - Provider routing & model configuration

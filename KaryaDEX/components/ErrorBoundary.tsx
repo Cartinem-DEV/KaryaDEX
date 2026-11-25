@@ -1,5 +1,5 @@
 // components/ErrorBoundary.tsx
-// React Error Boundary with Sentry integration for BunkMatKar
+// React Error Boundary with Sentry integration for KaryaDEX
 
 import React, { Component, ErrorInfo, ReactNode } from 'react';
 import {

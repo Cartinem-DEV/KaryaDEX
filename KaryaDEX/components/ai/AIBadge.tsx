@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Persona & Generated Badge Component (Phase 12)
+ * KaryaDEX — AI Persona & Generated Badge Component (Phase 12)
  *
  * Vector-only, theme-consistent indicator showing:
  * - "AI-Generated" indicator

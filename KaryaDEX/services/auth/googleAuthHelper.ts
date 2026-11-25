@@ -1,8 +1,8 @@
 /**
- * BunkMatKar — Google Identity Services (GIS) & ID Token Authentication Helper
+ * KaryaDEX — Google Identity Services (GIS) & ID Token Authentication Helper
  *
  * Implements Option 2: Direct Google Identity Services with Cryptographic Nonce
- * Enables authentication directly against Google Web Client ID (displaying "BunkMatKar")
+ * Enables authentication directly against Google Web Client ID (displaying "KaryaDEX")
  * and exchanges the verified Google ID token with Supabase via `supabase.auth.signInWithIdToken`.
  */
 
@@ -98,8 +98,8 @@ export async function hashNonceSHA256(rawNonce: string): Promise<string> {
 
   // 4. @noble/hashes fallback
   try {
-    const { sha256 } = require('@noble/hashes/sha256');
-    const { bytesToHex } = require('@noble/hashes/utils');
+    const { sha256 } = require('@noble/hashes/sha2.js');
+    const { bytesToHex } = require('@noble/hashes/utils.js');
     const encoder = new TextEncoder();
     return bytesToHex(sha256(encoder.encode(rawNonce)));
   } catch {}

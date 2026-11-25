@@ -1,6 +1,6 @@
 // __mocks__/expo-linking.ts
-export const makeRedirectUri = jest.fn().mockReturnValue('bunkmatkar://auth/callback');
-export const createURL = jest.fn().mockReturnValue('bunkmatkar://auth/callback');
+export const makeRedirectUri = jest.fn().mockReturnValue('karyadex://auth/callback');
+export const createURL = jest.fn().mockReturnValue('karyadex://auth/callback');
 export const parse = jest.fn((url: string) => ({
   path: 'auth/callback',
   queryParams: { code: 'mock_oauth_code_test' },

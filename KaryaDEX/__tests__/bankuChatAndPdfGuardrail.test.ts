@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — PDF Page Limit Guardrail & Banku Conversational Chat Tests
+ * KaryaDEX — PDF Page Limit Guardrail & Banku Conversational Chat Tests
  *
  * Validates:
  * 1. Lightweight PDF Page Limit validation:

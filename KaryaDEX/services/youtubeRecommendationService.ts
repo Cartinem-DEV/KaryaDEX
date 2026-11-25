@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — YouTube Recommendation Service
+ * KaryaDEX — YouTube Recommendation Service
  *
  * Dedicated service abstraction for academic study recommendations.
  * Ranks candidates using transparent recommendation signals:

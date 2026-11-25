@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Model & Provider Configuration (Phase 12)
+ * KaryaDEX — AI Model & Provider Configuration (Phase 12)
  *
  * Central configuration registry for AI model slots and providers.
  * Do NOT scatter model strings across UI or feature files.

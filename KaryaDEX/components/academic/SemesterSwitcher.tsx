@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — SemesterSwitcher Component (Phase 6)
+ * KaryaDEX — SemesterSwitcher Component (Phase 6)
  *
  * Canonical semester selector providing:
  * - Active semester pill button

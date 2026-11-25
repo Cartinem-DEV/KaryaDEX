@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 3 Task Engine 2.0 Tests
+ * KaryaDEX — Phase 3 Task Engine 2.0 Tests
  *
  * Verifies all 30 requirements specified for Task Engine 2.0:
  *   1. task creation

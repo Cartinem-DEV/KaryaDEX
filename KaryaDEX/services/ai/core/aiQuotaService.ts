@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Quota & Abuse Control Service (Phase 12)
+ * KaryaDEX — AI Quota & Abuse Control Service (Phase 12)
  *
  * Implements configurable per-user rate limits and daily caps.
  * Protects against runaway costs (denial-of-wallet) while remaining
@@ -11,7 +11,7 @@ import { formatLocalDate } from '@/lib/timeUtils';
 import type { AIQuotaTier, AIQuotaUsage } from './aiTypes';
 import { AIQuotaExceededError } from './aiTypes';
 
-const QUOTA_STORAGE_PREFIX = 'bunkmatkar_ai_quota_';
+const QUOTA_STORAGE_PREFIX = 'karyadex_ai_quota_';
 
 export const DEFAULT_FREE_TIER: AIQuotaTier = {
   name: 'free',

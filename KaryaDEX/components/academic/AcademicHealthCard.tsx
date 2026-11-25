@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AcademicHealthCard Component (Phase 6)
+ * KaryaDEX — AcademicHealthCard Component (Phase 6)
  *
  * Visual representation of the deterministic Academic Health Index:
  * - Overall Semester Health Score (0-100)

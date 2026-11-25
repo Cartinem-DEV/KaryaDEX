@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Proposal Preview & Confirmation Card (Phase 12)
+ * KaryaDEX — AI Proposal Preview & Confirmation Card (Phase 12)
  *
  * Enforces Golden Rule 2: Zero Direct Database Writes.
  * Renders structured proposal drafts (Timetable, Subtasks, Profile) for user review.

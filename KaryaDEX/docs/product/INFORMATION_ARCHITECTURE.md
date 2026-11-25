@@ -1,12 +1,12 @@
-# BunkMatKar Information Architecture: The Five Pillars of Academic Life-Management
+# KaryaDEX Information Architecture: The Five Pillars of Academic Life-Management
 
 ## 1. Overview of the Architecture
 
-The redesigned information architecture transitions BunkMatKar from a fragmented collection of attendance counters and task lists into a cohesive, five-pillar academic operating system.
+The redesigned information architecture transitions KaryaDEX from a fragmented collection of attendance counters and task lists into a cohesive, five-pillar academic operating system.
 
 ```mermaid
 graph TD
-    App[BunkMatKar App Shell]
+    App[KaryaDEX App Shell]
     App --> PillarA[Pillar A: TODAY<br/>Daily Focus & Briefing]
     App --> PillarB[Pillar B: PLAN<br/>Schedule, Calendar, Deadlines]
     App --> PillarC[Pillar C: LEARN<br/>Subjects, Syllabus, Journals]
@@ -132,4 +132,4 @@ To ensure that no existing screen or deep link breaks, the table below maps exis
 | `app/(tabs)/attendance.tsx` | **Pillar D: Progress** | Attendance health, target picker, recovery calculator, attendance records |
 | Floating Overlay | **Pillar E: AI Companion** | Floating AI Companion, Banku/Shanky selector, AIAssistantModal, proposal flows |
 
-All URL schemes, deep linking paths (`bunkmatkar://...`), and internal `router.push('/(tabs)/...')` references remain 100% valid.
+All URL schemes, deep linking paths (`karyadex://...`), and internal `router.push('/(tabs)/...')` references remain 100% valid.

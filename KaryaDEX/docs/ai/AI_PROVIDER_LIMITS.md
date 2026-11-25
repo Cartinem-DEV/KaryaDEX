@@ -1,7 +1,7 @@
 # AI Provider Limits & Quota Architecture (Phase 12)
 
 ## 1. Overview & Non-Assumptions Policy
-BunkMatKar treats AI provider quotas and rate limits as **runtime/account-configurable parameters** rather than fixed perpetual truths. The system makes zero hardcoded assumptions regarding "guaranteed DAU", "unlimited free requests", or permanent token limits.
+KaryaDEX treats AI provider quotas and rate limits as **runtime/account-configurable parameters** rather than fixed perpetual truths. The system makes zero hardcoded assumptions regarding "guaranteed DAU", "unlimited free requests", or permanent token limits.
 
 Both production AI personas—**Banku** (Google Gemini) and **Shanky** (Mistral AI)—run on **strictly independent quota pools**. Exhaustion or rate limiting of Google Gemini NEVER disables Shanky, and transient failures in Mistral NEVER degrade Banku or silently route conversational traffic to Google.
 

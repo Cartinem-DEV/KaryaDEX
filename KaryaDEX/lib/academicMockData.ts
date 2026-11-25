@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Academic Extension Seed Data
+ * KaryaDEX — Academic Extension Seed Data
  *
  * Mock data for Phases 1-10 feature set.
  * Structured around the real mockSubjects / mockClassSessions from mockData.ts.

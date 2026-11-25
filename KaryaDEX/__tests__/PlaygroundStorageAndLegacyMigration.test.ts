@@ -2,7 +2,7 @@
  * KaryaDEX — Playground Storage & Legacy Migration Test Suite (PG-3A)
  *
  * Validates:
- * - Detection and handling of legacy unpartitioned storage key (`bunkmatkar_playground_storage`)
+ * - Detection and handling of legacy unpartitioned storage key (`legacy_playground_v1_storage`)
  * - Identification of fabricated default mock data vs genuine legacy progress
  * - Atomic two-phase migration into guest partition with backup preservation
  * - Migration journal logging and idempotency
@@ -55,9 +55,10 @@ describe('PG-3A: Storage Architecture & Legacy Migration', () => {
       expect(guestKey).toBe('karyadex_playground_v2:guest');
       expect(authKey).toBe('karyadex_playground_v2:user:usr-987-abc');
 
-      // Assert keys do not contain legacy name 'bunkmatkar'
-      expect(guestKey).not.toContain('bunkmatkar');
-      expect(authKey).not.toContain('bunkmatkar');
+      // Assert keys use versioned v2 prefix and do not reuse legacy v1 unpartitioned key
+      expect(guestKey).toContain('karyadex_playground_v2');
+      expect(guestKey).not.toContain('legacy_playground_v1_storage');
+      expect(authKey).not.toContain('legacy_playground_v1_storage');
     });
   });
 
@@ -77,7 +78,7 @@ describe('PG-3A: Storage Architecture & Legacy Migration', () => {
         version: 0,
       };
 
-      storageMap.set('bunkmatkar_playground_storage', JSON.stringify(fabricatedMock));
+      storageMap.set('legacy_playground_v1_storage', JSON.stringify(fabricatedMock));
 
       const migrationResult = await migrateLegacyToGuestIfAppropriate();
 
@@ -121,7 +122,7 @@ describe('PG-3A: Storage Architecture & Legacy Migration', () => {
         version: 0,
       };
 
-      storageMap.set('bunkmatkar_playground_storage', JSON.stringify(genuineLegacy));
+      storageMap.set('legacy_playground_v1_storage', JSON.stringify(genuineLegacy));
 
       const migrationResult = await migrateLegacyToGuestIfAppropriate();
       expect(migrationResult.migrated).toBe(true);
@@ -139,7 +140,7 @@ describe('PG-3A: Storage Architecture & Legacy Migration', () => {
       // Migration journal entry is written
       const journal = await getMigrationJournal();
       expect(journal.length).toBeGreaterThan(0);
-      expect(journal[0].sourceKey).toBe('bunkmatkar_playground_storage');
+      expect(journal[0].sourceKey).toBe('legacy_playground_v1_storage');
       expect(journal[0].migratedMatchesCount).toBe(3);
     });
 
@@ -166,7 +167,7 @@ describe('PG-3A: Storage Architecture & Legacy Migration', () => {
         },
       };
 
-      storageMap.set('bunkmatkar_playground_storage', JSON.stringify(genuineLegacy));
+      storageMap.set('legacy_playground_v1_storage', JSON.stringify(genuineLegacy));
 
       // First run
       const result1 = await migrateLegacyToGuestIfAppropriate();
@@ -223,7 +224,7 @@ describe('PG-3A: Storage Architecture & Legacy Migration', () => {
         version: 0,
       };
 
-      storageMap.set('bunkmatkar_playground_storage', JSON.stringify(ambiguousProfile));
+      storageMap.set('legacy_playground_v1_storage', JSON.stringify(ambiguousProfile));
 
       const result = await migrateLegacyToGuestIfAppropriate();
 

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Feature 4: "What Should I Do Today?" Daily Briefing (Phase 12 Shanky MVP)
+ * KaryaDEX — Feature 4: "What Should I Do Today?" Daily Briefing (Phase 12 Shanky MVP)
  *
  * Gathers today's timetable, pending tasks, exams, and attendance pressure ->
  * Generates structured, prioritized daily game plan ->

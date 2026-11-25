@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Brain Playground Domain Types
+ * KaryaDEX — Brain Playground Domain Types
  *
  * Models for the Cognitive Brain Playground:
  * Escape the Matrix of social media doomscrolling through speed math,

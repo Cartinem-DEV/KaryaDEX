@@ -1,5 +1,5 @@
 -- ====================================================================
--- BunkMatKar — AI Usage Counters Table (Phase 12)
+-- KaryaDEX — AI Usage Counters Table (Phase 12)
 -- Daily quota tracking for AI Gateway (Supabase Edge Function + Cloudflare Worker fallback)
 -- ====================================================================
 

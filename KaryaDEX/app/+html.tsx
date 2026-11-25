@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Web-specific HTML template
+ * KaryaDEX — Web-specific HTML template
  * 
  * Adds Inter font, viewport meta, refined desktop frame, and glassmorphism styling.
  */

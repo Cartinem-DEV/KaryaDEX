@@ -101,20 +101,16 @@ KaryaDEX is engineered so that **no sensitive secrets are ever exposed to the cl
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Cartinem-DEV/karyadex.git
-cd karyadex
+git clone https://github.com/Cartinem-DEV/KaryaDEX.git
+cd KaryaDEX
 ```
 
 ### 2. Install Dependencies
 ```bash
-# Install workspace dependencies
-npm install
-
-# Install client application dependencies
-cd KaryaDEX
-npm install
-npm audit fix --force
+# Install all app and gateway dependencies from workspace root
+npm run setup
 ```
+*(Or install individually inside `KaryaDEX/` and `workers/ai-gateway/` with `npm install`.)*
 
 ### 3. Configure Environment Variables
 ```bash

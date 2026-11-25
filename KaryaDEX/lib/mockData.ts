@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Mock Seed Data
+ * KaryaDEX — Mock Seed Data
  * 
  * Realistic college data for demo mode.
  * Example Institute of Technology, Semester 3.

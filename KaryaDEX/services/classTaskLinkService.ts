@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Class Task Link Service (Task Engine 2.0)
+ * KaryaDEX — Class Task Link Service (Task Engine 2.0)
  *
  * Manages relationships between Tasks and Class Sessions without data duplication.
  *

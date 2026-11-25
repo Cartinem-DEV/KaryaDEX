@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — UI Component Barrel Export
+ * KaryaDEX — UI Component Barrel Export
  */
 
 export { GlassCard } from './GlassCard';

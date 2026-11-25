@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Database Connection & Adapter
+ * KaryaDEX — Database Connection & Adapter
  *
  * Provides a resilient, platform-aware SQLite database connection.
  * - Native (Android / iOS): expo-sqlite with WAL and foreign keys enabled

@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 2 Persistence & Database Integration Tests
+ * KaryaDEX — Phase 2 Persistence & Database Integration Tests
  *
  * Verifies:
  *   1. Database initialization & schema migrations

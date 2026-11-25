@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Hardening & Data-Integrity Audit Test Suite (Phase 1)
+ * KaryaDEX — Hardening & Data-Integrity Audit Test Suite (Phase 1)
  *
  * Covers the 10 minimum requirements of Part 21:
  * 1. ClassSession uniqueness

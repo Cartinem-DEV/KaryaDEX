@@ -1,5 +1,5 @@
 /**
- * BunkMatKar Design System — Theme Tokens
+ * KaryaDEX Design System — Theme Tokens
  *
  * Visual Philosophy:
  * - Refined, modern glassmorphism with 3-tier surface hierarchy

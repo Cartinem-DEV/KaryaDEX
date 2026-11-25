@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — AI Provider Interface (Phase 12)
+ * KaryaDEX — AI Provider Interface (Phase 12)
  *
  * Provider-agnostic abstraction enabling seamless pluggability of
  * Gemini, Groq, OpenAI, Anthropic, or local on-device models.

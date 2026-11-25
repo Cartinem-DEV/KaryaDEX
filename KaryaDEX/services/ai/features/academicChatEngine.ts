@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Academic Chat Intelligence Engine
+ * KaryaDEX — Academic Chat Intelligence Engine
  *
  * Comprehensive academic and general knowledge engine powering Banku & Shanky.
  * Enables both AI companions to answer ANY question asked by the student:

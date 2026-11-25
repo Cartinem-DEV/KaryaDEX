@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Phase 4: Academic Hub & Notification Engine Tests
+ * KaryaDEX — Phase 4: Academic Hub & Notification Engine Tests
  *
  * Comprehensive verification of all 30 Phase 4 requirements:
  *

@@ -1,8 +1,8 @@
 /**
- * BunkMatKar — Lockin Supabase Sync Adapter
+ * KaryaDEX — Lockin Supabase Sync Adapter
  *
  * Real Supabase implementation for syncing Lockin sessions, streaks, and exam presets.
- * Bridges BunkMatKar's Lockin Storage with Supabase PostgreSQL and Row-Level Security.
+ * Bridges KaryaDEX's Lockin Storage with Supabase PostgreSQL and Row-Level Security.
  */
 
 import { getSupabaseClient } from '../supabase/supabaseClient';

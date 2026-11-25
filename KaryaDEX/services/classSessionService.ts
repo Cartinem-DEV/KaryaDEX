@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Class Session Service
+ * KaryaDEX — Class Session Service
  *
  * Canonical orchestrator for saving and querying individual Class Session occurrences.
  * Maintains the single source of truth:

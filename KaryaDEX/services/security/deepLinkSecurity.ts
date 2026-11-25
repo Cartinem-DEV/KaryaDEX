@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Deep Link Security Validator (Phase 11.6)
+ * KaryaDEX — Deep Link Security Validator (Phase 11.6)
  *
  * Prevents open redirects, protocol smuggling, encoded path traversal,
  * and unauthorized destination routing.

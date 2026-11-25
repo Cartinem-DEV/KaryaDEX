@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — Time & Date Utilities
+ * KaryaDEX — Time & Date Utilities
  * 
  * Helpers for time-aware UI, greeting generation, and schedule computation.
  */

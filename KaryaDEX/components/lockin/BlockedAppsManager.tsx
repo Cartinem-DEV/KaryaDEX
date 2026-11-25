@@ -1,5 +1,5 @@
 /**
- * BunkMatKar — BlockedAppsManager
+ * KaryaDEX — BlockedAppsManager
  *
  * Modal for managing the app blocklist.
  * Users can add/remove apps from the blocklist, toggle blocking on/off,
